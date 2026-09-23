@@ -1,14 +1,24 @@
 ---
-title: Adobe Marketo Qualifier リリースノート
-description: Adobe Marketo Qualifierの新機能について説明します。
+title: '[!DNL Adobe Marketo Qualifier] リリースノート'
+description: '[!DNL Adobe Marketo Qualifier]の新機能について説明します。'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 12%
+source-wordcount: '390'
+ht-degree: 14%
 ---
-# Adobe Marketo Qualifier リリースノート
+# [!DNL Adobe Marketo Qualifier] リリースノート
+
+## 09-22-2026
+
+このリリースには次のものが含まれます。
+
+* 組み込みのCRM プラグインで[!DNL Marketo Sales Insights]とエージェント型データを表示し、見込み客を[!DNL Marketo Qualifier]に追加します。 [詳細情報](admin-settings.md#crm-mcp-and-the-embedded-plugin)。
+* ベストベット、マイウォッチリスト、web アクティビティ、メールエンゲージメント、ウェビナーアクティビティにより、CRM リードに優先順位を付けることができます。 [詳細情報](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
+* ライブ [!DNL Marketo]のアクティビティがワークフロー条件に一致すると、見込み顧客がアウトバウンドワークフローに自動的に登録されます。 [詳細情報](home.md#automatically-enroll-prospects-from-marketing-highlights)。
+* 見込み客のコンテキストを確認し、見込み客リストを書き出して、[!DNL Marketo Optimizer]件のPrimeおよびUltimate インスタンスでAI担当者の概要を表示します。 [詳細情報](prospects.md#review-prospect-context-and-export-the-list)。
+* 生成された見込み客のメールをタスクキューから確認して承認し、アウトバウンドワークフロー中にエージェントの提案を返します。 [詳細情報](tasks.md)。
 
 ## 09-08-2026
 
@@ -21,15 +31,15 @@ ht-degree: 12%
 * 生成されたメールは、インポートした追加の見込み客データを使用し、見込み客の言語でネイティブに作成できます。 [詳細情報](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)。
 * アウトバウンドパフォーマンスでは、デフォルトで開封率とクリック率が表示され、未加工の数と組織レベルでの見込客数の切り替えが表示されます。 [詳細情報](performance.md)。
 * CRM同期ルールは、見込み客がアウトバウンドワークフローを通過すると、CRM ステータスを自動的に更新します。 [詳細情報](admin-settings.md#configure-crm-sync-rules)。
-* Marketo Qualifier、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]のデータで、AI チャットに関する質問を行います。 [詳細情報](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
+* [!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]のデータでAI チャットの質問を行います。 [詳細情報](ai-assistant.md#ask-ai-chat-across-your-connected-data)。
 
 ## 08-17-2026
 
-[!DNL Marketo Qualifier]はスタンドアロン アプリケーションとして利用できるようになりました。 MarketoとAdobe Journey Optimizer B2Bに対応しています。
+[!DNL Marketo Qualifier]はスタンドアロンアプリとして利用できるようになりました。 [!DNL Marketo Engage]と[!DNL Marketo Optimizer]をサポートしています。
 
 このリリースには次のものが含まれます。
 
-* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[&#x200B; アカウント &#x200B;](accounts.md#account-insights)を確認します。
+* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[ アカウント ](accounts.md#account-insights)を確認します。
 * AIが提案したケイデンスとドラフト付きメールによる、目標主導のアウトバウンドワークフロー。 [詳細情報](outbound-workflows.md)。
 * 電話、LinkedInMails、メールレビュー用の統合タスクキュー。 [詳細情報](tasks.md)。
 * カレンダー統合によるミーティングの自動予約。 [詳細情報](outbound-workflows.md#meeting-booking)。

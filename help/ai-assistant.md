@@ -1,12 +1,12 @@
 ---
 title: AI チャットを使用
-description: Adobe Marketo QualifierのAI チャットを使用して、CRM、エンゲージメント、ナレッジセンターのデータを基にアカウントの調査やアウトリーチのドラフト作成をおこない、疑問の答えを得る方法を紹介します。
+description: '[!DNL Adobe Marketo Qualifier]のAI チャットを使用して、アカウントを調査し、アウトリーチのドラフトを作成し、CRM、エンゲージメント、ナレッジセンターのデータに基づいて回答を得る方法を説明します。'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/LHCHAk0rsNwLsKFhKMlHaLL7xkkCEAKFNDMEonb2TdQ'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Adobe Marketo Qualifier
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
@@ -16,21 +16,21 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '712'
 ht-degree: 1%
 ---
 
 # AI チャット
 
-AI チャットは、セールスコンテキストにもとづいて自然言語の質問に回答します。 Adobe Marketo修飾子を離れることなく、アカウントの調査、電話の準備、アウトリーチのドラフト作成、作業の優先順位付けをおこなうことができます。
+AI チャットは、セールスコンテキストにもとづいて自然言語の質問に回答します。 アカウントの調査、電話の準備、アウトリーチのドラフト作成、[!DNL Adobe Marketo Qualifier]を離れずに作業の優先順位付けなどに使用できます。
 
-![AI チャット ボタン &#x200B;](assets/ai-chat.png){width="800" zoomable="yes"}
+![AI チャット ボタン ](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI チャットを開く
 
-フローティング **[!UICONTROL AI チャット]** ボタンを選択して、チャットパネルを開きます。 パネルが現在のページの横に開き、見込み顧客、アカウント、またはアウトバウンドワークフローを表示できます。 パネルの端をドラッグして、サイズを変更します。 パネルを閉じるには、**[!UICONTROL AI チャット]**&#x200B;をもう一度選択します。
+チャットパネルを開くには、**[!UICONTROL AI チャット]** ボタンを選択します。 パネルが現在のページの横に開き、見込み顧客、アカウント、またはアウトバウンドワークフローを表示できます。 パネルのサイズを変更するには、パネルの端をドラッグします。 パネルを閉じるには、**[!UICONTROL AI チャット]**&#x200B;をもう一度選択します。
 
 >[!NOTE]
 >
@@ -40,9 +40,9 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 AI Chatでは、次のソースを使用できます。
 
-* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
+* [ ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
 * リード、取引先責任者、アカウント、商談、アクティビティなど、連携されたCRM。
-* [!DNL Marketo]のアクティビティとエンゲージメントのデータ。
+* [!DNL Marketo] アクティビティとエンゲージメント データ。
 * アカウント調査とAccount Qualification Agentによって収集された最近のニュース。
 * 公開web調査：
 
@@ -58,7 +58,7 @@ AI Chatでは、次のソースを使用できます。
 
 ## 接続されたデータ全体でAI チャットを尋ねる
 
-AI Chatは、Marketo Qualifier、[!DNL Marketo]、[!DNL Adobe Journey Optimizer B2B Edition]、および企業インテリジェンスデータをまたいで質問に答えることができます。 平易な言葉で質問することで、情報を検索したり、コンテキストを抽出したりできます。 AI Chatは、データを読み取り、レポートを作成します。何も作成、編集、起動することはありません。
+AI チャットは、[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]、および企業インテリジェンスデータに関する質問に答えることができます。 平易な言葉で質問することで、情報を検索したり、コンテキストを取得したりできます。 AI Chatは、データを読み取り、レポートを作成します。何も作成、編集、起動することはありません。
 
 ここでは、プロンプトの例をいくつか紹介します。 プロンプトを具体的に示せば示すほど、より的を絞った結果を得ることができます。
 
@@ -72,8 +72,8 @@ AI Chatは、Marketo Qualifier、[!DNL Marketo]、[!DNL Adobe Journey Optimizer 
 
 ナレッジセンター：
 
-* 「価格上の異議を取り扱う上で、どのような担保を持っていますか？」
-* 「競合他社と比較した主な差別化要因は何か？」
+* 「価格設定に関する異議の処理に関して、どのような資料がありますか？」
+* 「競合他社との主な差別化要因は何か？」
 * 「ナレッジセンターのドキュメントのリスト」
 * 「文書の要約」
 
@@ -93,7 +93,7 @@ CRM:
 [!DNL Adobe Journey Optimizer B2B Edition]:
 
 * 「どれだけのジャーニーがあるの？」
-* 「ペルソナ別のオーディエンスのセグメンテーション方法は？」
+* 「ペルソナはどのようにオーディエンスをセグメント化するのか？」
 * 「私のアカウントにはどのようなランディングページがありますか？」
 * 「スコアリングに追加するリードフィールドはどれですか？」
 
@@ -111,7 +111,7 @@ CRM:
 
 ## プレイブック内の回答のグラウンド
 
-[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
+[ ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -129,10 +129,10 @@ AIによる回答は不正確なことがあります。 あらゆるコンテ�
 * 下書きのメールは慎重に読み、送信前にパーソナライズしましょう。
 * アシスタントの出力は、完成した成果物ではなく、出発点として使用します。
 
-AI チャットの利用には、Adobeの生成AIに関する条件が適用されます。
+Adobeの生成AIに関する用語は、AI チャットの利用状況を規定しています。
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)
+>* [ ナレッジセンター](admin-settings.md#knowledge-center)
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
