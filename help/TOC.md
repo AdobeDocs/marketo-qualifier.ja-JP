@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Marketo修飾子
-user-guide-description: Adobe Marketo Qualifierを使用して、B2B セールス部門の見込み顧客のクオリフィケーション、アウトリーチ、バイヤーエンゲージメントを自動化する方法を紹介します。
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+user-guide-title: '[!DNL Adobe Marketo Qualifier]'
+user-guide-description: '[!DNL Adobe Marketo Qualifier]を使用して、B2B セールス チームの見込み顧客の選定、アウトリーチ、バイヤーエンゲージメントを自動化する方法について説明します。'
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '51'
-ht-degree: 21%
+source-wordcount: '42'
+ht-degree: 26%
 ---
-# Adobe Marketo選定ガイド {#using}
+# [!DNL Adobe Marketo Qualifier] ガイド {#using}
 
 + [概要](home.md)
 + [リリースノート](release-notes.md)

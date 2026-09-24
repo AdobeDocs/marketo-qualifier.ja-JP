@@ -1,6 +1,6 @@
 ---
-title: Adobe Marketo修飾子の概要
-description: Adobe Marketo Qualifierは、AIを活用して、B2B営業部門への見込み顧客の絞り込み、アウトリーチ、バイヤーエンゲージメントを自動化するアプリです。その詳細をご確認ください。
+title: '[!DNL Adobe Marketo Qualifier] の概要'
+description: 見込み顧客の絞り込み、アウトリーチ、B2B営業部門へのバイヤーエンゲージメントを自動化する、[!DNL Adobe Marketo Qualifier]について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
@@ -17,19 +17,19 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 21%
+source-wordcount: '463'
+ht-degree: 18%
 ---
 
-# Adobe Marketo修飾子
+# [!DNL Adobe Marketo Qualifier]
 
-Adobe Marketo Qualifierは、見込み顧客の絞り込み、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを、Business development representatives （BDR）向けに自動化する、AIを活用したアプリケーションです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
+[!DNL Adobe Marketo Qualifier]は、ビジネス開発担当者（BDR）向けの見込み顧客の選定、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを自動化する、AIを活用したアプリです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
 
-BDRは、ブラウザーとメールのプラグインを使用して、CRMやOutlook内で直接ビジネスインテリジェンスにアクセスできます。
+このアプリは、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Marketo Measure]と共に[!DNL Marketo]製品ファミリーの一部です。 BDRは、ブラウザーとメールのプラグインを使用して、CRMやOutlook内で直接ビジネスインテリジェンスにアクセスできます。
 
-## Marketo Qualifierでできること
+## [!DNL Marketo Qualifier]でできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。
@@ -40,6 +40,12 @@ BDRは、ブラウザーとメールのプラグインを使用して、CRMやOu
 * **電子メールとミーティング予約レポートを使用して、アウトリーチのパフォーマンス**&#x200B;を追跡します。
 
 >[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+
+## ホームページの使用
+
+ホームページは、日々の作業の出発点となります。 初めてのガイダンスとスタータープロンプトにより、**[!UICONTROL AI チャット]**&#x200B;を開いて質問することができます。 クイックリンクを使用すると、**[!UICONTROL 見込み客]**、**[!UICONTROL アウトバウンドワークフロー]**、**[!UICONTROL タスク]**&#x200B;に直接アクセスできます。
+
+ホームページには、今後のタスクとアウトバウンドワークフローも表示されます。 タスクリストで、カレンダータスクまたはエージェントが提案したタスクを選択して、次に重要な作業に集中できます。
 
 ## ガイドの探索
 

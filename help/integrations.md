@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: d967b633fcb63c64169d3e3fbf305fd2ff82236d
+source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1383'
 ht-degree: 1%
 ---
 
@@ -91,7 +91,7 @@ Marketo修飾子は、送信したメールに対する返信のみを読み取�
 
 ### 接続の接続または編集
 
-1. CRM カードで、**[!UICONTROL Connect]**&#x200B;を選択するか、**[!UICONTROL More]** > **[!UICONTROL 設定を編集]**&#x200B;を選択して、既存の接続を更新します。
+1. 接続を作成するには、CRM カードで&#x200B;**[!UICONTROL Connect]**&#x200B;を選択します。 既存の接続を更新するには、**[!UICONTROL 詳細]** > **[!UICONTROL 設定を編集]**&#x200B;を選択します。
 1. CRM管理者の資格情報を入力します。
 
    >[!BEGINTABS]
@@ -119,7 +119,7 @@ Marketo Qualifierが資格情報を拒否した場合、資格情報の無効ま
 ### 接続の切断
 
 1. 接続されたCRM カードで、**[!UICONTROL 詳細]** > **[!UICONTROL 切断]**&#x200B;を選択します。
-1. 警告を確認し、**[!UICONTROL 切断]**&#x200B;を選択して確認します。
+1. 警告を確認します。 確認するには、**[!UICONTROL 切断]**&#x200B;を選択します。
 
 >[!WARNING]
 >
@@ -146,7 +146,7 @@ Marketo Qualifierが資格情報を拒否した場合、資格情報の無効ま
    | **[!UICONTROL 商談]** | アカウントの商談の詳細。 |
 
 1. **[!UICONTROL セクション名]**&#x200B;と、オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。
-1. **[!UICONTROL フィールドを追加]** ステップで、読み込むCRM フィールドを検索して選択します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。 各フィールドには、**[!UICONTROL 表示名]**、**[!UICONTROL フィールド名]**、**[!UICONTROL データタイプ]**&#x200B;が表示されます。
+1. **[!UICONTROL フィールドを追加]** ステップで、CRM フィールドを読み込むには、それらを検索して選択します。 次に、続行するには、**[!UICONTROL 次へ]**&#x200B;を選択します。 各フィールドには、**[!UICONTROL 表示名]**、**[!UICONTROL フィールド名]**、**[!UICONTROL データタイプ]**&#x200B;が表示されます。
 1. **[!UICONTROL 見込み客]**、**[!UICONTROL 連絡先]**、および&#x200B;**[!UICONTROL 商談]** セクションの場合、[見込み客](prospects.md) リストで担当者が必要とする各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。
 
    フィールドのデータタイプがフィルタリングをサポートしていない場合、または別のセクションで既に使用されている場合、フィールドをフィルタリングすることはできません。
@@ -159,23 +159,23 @@ Marketo Qualifierが資格情報を拒否した場合、資格情報の無効ま
 
 ## アクティビティ同期の設定（アウトバウンドマッピング） {#configure-activity-sync-outbound-mapping}
 
-Activity syncは、Marketo QualifierのアウトリーチアクティビティをCRMおよびMarketoに書き込みます。 電子メールの送信、開封、クリック、返信アクティビティには、アウトバウンドワークフロー名が含まれます。 たとえば、代表者はCRMのアクティビティを利用し、マーケティング部門はリードスコアリングやエンゲージメントのタイムラインにAdobe Marketoのアクティビティを利用できます。
+Activity syncは、CRMとMarketoにMarketo Qualifier アウトリーチアクティビティを書き込みます。 電子メールの送信、開封、クリック、返信アクティビティには、アウトバウンドワークフロー名が含まれます。 たとえば、代表者はCRMのアクティビティを利用し、マーケティング部門はリードスコアリングやエンゲージメントのタイムラインにAdobe Marketoのアクティビティを利用できます。
 
 1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択します。
 1. 「**[!UICONTROL アウトバウンドマッピング]**」タブを開きます。
 1. **[!UICONTROL アクティビティの同期]**&#x200B;を有効にします。 設定はすぐに保存されます。
 
-アクティビティの同期がオフの場合、Marketo Qualifierはインバウンド CRM データを引き続き使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
+アクティビティの同期がオフの場合、Marketo Qualifierは引き続きインバウンド CRM データを使用しますが、アウトリーチアクティビティをCRMまたはMarketoに同期しません。
 
 >[!NOTE]
 >
->アクティビティの同期には、CRMでの書き込みアクセス権が必要です。 必要な権限がない場合は、スイッチが無効になり、Marketo修飾子から管理者に連絡するように求められます。 アクティビティへの書き込みアクセス権を付与するには、CRM管理者と協力します。
+>アクティビティの同期には、CRMでの書き込みアクセス権が必要です。 必要な権限がない場合、スイッチは無効になり、Marketo Qualifierから管理者に連絡するように求められます。 アクティビティへの書き込みアクセス権を付与するには、CRM管理者と協力します。
 
 ## マーケティングハイライトの設定 {#turn-on-marketo-engagement-filtering}
 
 マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [&#x200B; マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
 
-管理者は、関連する組織とサンドボックスのMarketo Qualifierに[!DNL Marketo]を接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
+管理者は、関連する組織とサンドボックスの[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
 マーケティングハイライトは、北米、EMEA、オーストラリアのすべての生産地域で利用できます。
 
