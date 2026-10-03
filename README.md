@@ -31,7 +31,7 @@ Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ &#
 1. **このコンテンツは役に立ちましたか？** ページ下部のバナーで、**詳細なフィードバックオプション**&#x200B;を選択します。
 1. 「**編集を提案**」を選択し、変更を加えてプルリクエスト（PR）を送信します。
 
-   詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+   詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
 
 このリポジトリ内のドキュメントやコード例に対してユーザが送信する軽微な修正や補足説明には、アドビの利用条件が適用されます。
 
@@ -47,7 +47,7 @@ Adobeの社員の場合は、プライベート [Adobe GitHub リポジトリ &#
 
 基本的な編集にはGitHub インターフェイスを使用します。 大きな貢献の場合は、リポジトリをフォークします。
 
-詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction)を参照してください。
+詳しくは、[Adobe Docs コントリビューターガイド &#x200B;](https://experienceleague.adobe.com/ja/docs/contributor/contributor-guide/introduction)を参照してください。
 
 ## 内部コントリビューター
 
