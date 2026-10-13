@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -21,7 +21,7 @@ topic_v2:
     internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -31,13 +31,13 @@ ht-degree: 0%
 
 AdobeがMarketo Qualifierを組織にプロビジョニングした後、必要なユーザーグループを作成し、SalesforceまたはMicrosoft Dynamics 365に接続する必要があります。[!DNL Marketo]
 
-![Marketo Qualifier ホームページ &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier ホームページ ](assets/homepage.png){width="800" zoomable="yes"}
 
 ## ユーザーグループの設定
 
 Adobe Admin Consoleのユーザーグループは、Marketo Qualifierへのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
 
-グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -62,7 +62,7 @@ Adobe Admin Consoleのユーザーグループは、Marketo Qualifierへのア�
 
 ### Marketo Qualifier管理者
 
-CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[ ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Marketo Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
@@ -116,19 +116,19 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
 1. 実行ユーザーが&#x200B;**読み取り** アクセス権を`Leads`、`Accounts`、`Contacts`、`Tasks`、`Events`、`Opportunity`、`OpportunityContactRoles`および`OpportunityLineItems`に持っていることを確認します。 また、**アクセス アクティビティ**&#x200B;が有効になっていることも確認してください。
 1. アプリケーションを保存します。
 1. **[!UICONTROL App Manager]**&#x200B;からアプリケーションを開き、**[!UICONTROL 表示]** > **[!UICONTROL 消費者の詳細]**&#x200B;を選択します。
-1. Marketo Qualifier接続に次の値をコピーします。
+1. Marketo Qualifier接続の次の値をコピーします。
 
    * コンシューマーキー（クライアント ID）
    * Consumer Secret （クライアントシークレット）
    * コールバック URL
    * Salesforce インスタンス URL
 
-手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/?language=en_US)を参照してください。
+手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント ](https://help.salesforce.com/s/?language=en_US)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
 1. ログインして、ブラウザーのアドレスバー（`{{mydomain}}`値）から組織&#x200B;_マイドメイン_ サブドメインをメモします。
-1. Marketo修飾子の正規フォームを使用します：`https://{{mydomain}}.my.salesforce.com`。
+1. Marketo Qualifierの正規フォームを使用：`https://{{mydomain}}.my.salesforce.com`。
 
 インスタンス URLとして`lightning.force.com` URLを使用しないでください。
 
@@ -155,7 +155,7 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 ### 接続を入力
 
-1. 両方の必要なMarketo Qualifier グループのメンバーとしてMarketo Qualifierにログインし、適切なサンドボックスまたは環境が選択されていることを確認します。
+1. 両方の必須Marketo Qualifier グループのメンバーとしてMarketo Qualifierにログインし、適切なサンドボックスまたは環境が選択されていることを確認します。
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択します。
 1. **[!UICONTROL 統合]**&#x200B;の下の&#x200B;**[!UICONTROL CRM接続]**&#x200B;を選択します。
 
@@ -169,13 +169,13 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 ### CRM フィールドのインポート
 
-CRMを接続した後、インバウンドマッピングを設定して、Marketo Qualifier内に表示されるCRM フィールドを決定します。 **[!UICONTROL インバウンドマッピング]**&#x200B;を開くには、接続されているCRM カードの&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
+CRMを接続したら、インバウンドマッピングを設定して、Marketo Qualifier内に表示されるCRM フィールドを決定します。 **[!UICONTROL インバウンドマッピング]**&#x200B;を開くには、接続されているCRM カードの&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
 
-インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)

@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -17,7 +17,7 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '463'
 ht-degree: 18%
@@ -39,7 +39,7 @@ ht-degree: 18%
 * **CRM、エンゲージメント、ナレッジセンターのデータを使用するAI チャットを使用して、自然言語で質問する**。
 * **電子メールとミーティング予約レポートを使用して、アウトリーチのパフォーマンス**&#x200B;を追跡します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## ホームページの使用
 
@@ -51,7 +51,7 @@ ht-degree: 18%
 
 ::::landing-cards-container
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -61,7 +61,7 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 見込み客
 
@@ -71,7 +71,7 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 アカウント
 
@@ -81,7 +81,7 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アウトバウンドワークフロー
 
@@ -91,7 +91,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 タスク
 
@@ -101,7 +101,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 パフォーマンス
 
@@ -111,7 +111,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ナレッジセンター
 
@@ -121,7 +121,7 @@ AIのアウトリーチとマテリアル内の支援を基盤とするプレイ
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 統合
 
@@ -131,7 +131,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 プロファイル設定
 
@@ -141,7 +141,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI チャット
 

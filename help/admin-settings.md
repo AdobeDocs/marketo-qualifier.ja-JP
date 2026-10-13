@@ -3,20 +3,26 @@ title: 管理者設定
 description: CRM フィールド、アクティビティの同期、電子メールのオプトアウト、およびその他[!DNL Adobe Marketo Qualifier]の管理設定を管理する方法について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
-TQID: 'https://experienceleague.adobe.com/vbtO6I67ZEaZz3oio9InNErvq5D0wjbRxyDZpTq8Lzo'
-product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
-feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
-    internal-label: Administration
-
 internal-label: Administration
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+autotag-review: '2026-10-08T17:58:28.029Z'
+TQID: 'https://experienceleague.adobe.com/2eccZWj1XY7qP20n6GcnBe6PZwNkp0ALhZfOhljwZF8'
+product_v2:
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
+topic_v2:
+  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
+  - id: d095671a-1355-40aa-8b5f-06c33c68080b
+    internal-label: Security
+  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
+  - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1292'
 ht-degree: 0%
 ---
 
@@ -24,7 +30,7 @@ ht-degree: 0%
 
 **[!UICONTROL 管理者設定]**&#x200B;を使用して、CRM統合の設定、ナレッジセンターの管理、メールのオプトアウトの設定を行います。
 
-[!DNL Adobe Marketo Qualifier]はSalesforceまたはMicrosoft Dynamics 365に接続します。 この連携により、Account Qualification Agent（AQA）では、リード、アカウント、取引先責任者、アクティビティ、所有者を一貫して把握できます。 Marketo Qualifierは、アウトリーチアクティビティとオプトアウトステータスをCRMに書き戻し、アウトリーチアクティビティをMarketoに同期することもできます。
+[!DNL Adobe Marketo Qualifier]はSalesforceまたはMicrosoft Dynamics 365に接続します。 この連携により、Account Qualification Agent（AQA）では、リード、アカウント、取引先責任者、アクティビティ、所有者を一貫して把握できます。 また、Marketo Qualifierでは、アウトリーチアクティビティとオプトアウトステータスをCRMに書き込み、アウトリーチアクティビティをMarketoに同期することもできます。
 
 CRM接続、フィールドマッピング、およびアクティビティの同期を設定するには、**[!UICONTROL 管理]** > **[!UICONTROL 管理者設定]** > **[!UICONTROL CRM接続]**&#x200B;に移動します。 標準ユーザーは、設定されたCRM データとフィルターを使用できますが、これらの設定を変更することはできません。 CRMを初めて接続する場合は、[開始](getting-started.md#connect-your-crm)を参照してください。
 
@@ -34,7 +40,7 @@ CRM接続、フィールドマッピング、およびアクティビティの�
 
 ## CRM MCPと組み込みプラグイン
 
-Marketo Qualifierは、次のような方法でCRMと連携します。
+Marketo QualifierとCRMの連携には、次のような利点があります。
 
 * **CRM MCP クエリ** - Account Qualification Agentはライブ CRM データをクエリし、回答とインサイトがレコードの現在の状態を反映するようにします。
 * **埋め込みプラグイン** - CRM プラグインは、CRM内の[!DNL Marketo Sales Insights] （MSI）インサイトとエージェント型データを表示します。 プラグインを使用して、見込み客を[!DNL Marketo Qualifier]に追加します。
@@ -55,7 +61,7 @@ CRM プラグインは、担当者がCRMから離れることなくリードに�
 
 ## CRM アクセス範囲
 
-Marketo Qualifierは、CRMから、ユーザー、取引先責任者、オーナーのマッピング、リード、アカウント、商談、アクティビティを読み取ります。 ログに記録されたアウトリーチアクティビティとオプトアウトステータスのみがCRMに書き込まれ、アウトリーチアクティビティがMarketoに同期されます。 CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備します。 次に、Marketo Qualifier管理者が、CRMを接続し、インバウンドフィールドをマッピングして、アクティビティを同期するかどうかを選択します。
+Marketo Qualifierは、CRMからユーザー、取引先責任者、オーナーのマッピング、リード、アカウント、商談、アクティビティを読み取ります。 ログに記録されたアウトリーチアクティビティとオプトアウトステータスのみがCRMに書き込まれ、アウトリーチアクティビティがMarketoに同期されます。 CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備します。 次に、Marketo Qualifierの管理者が、CRMを接続し、インバウンドフィールドをマッピングして、アクティビティを同期するかどうかを選択します。
 
 >[!NOTE]
 >
@@ -63,7 +69,7 @@ Marketo Qualifierは、CRMから、ユーザー、取引先責任者、オーナ
 
 ## CRM フィールドのマッピング（インバウンドマッピング）
 
-CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、**[!UICONTROL インバウンドマッピング]**&#x200B;を開きます。 インバウンドマッピングは、Marketo修飾子がアプリケーションに取り込むCRM フィールドを制御します。
+CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、**[!UICONTROL インバウンドマッピング]**&#x200B;を開きます。 インバウンドマッピングでは、Marketo Qualifierがアプリケーションに取り込むCRM フィールドを制御します。
 
 1. 「**[!UICONTROL セクションを追加]**」を選択します。
 1. セクション名と説明を入力します。
@@ -75,7 +81,7 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 1. **[!UICONTROL 見込み客]** リストでフィルターとして使用する見込み客、取引先責任者、または商談の各フィールドについて、**[!UICONTROL フィルター可能]**&#x200B;を有効にします。
 1. セクションをプレビューし、**[!UICONTROL 追加]**&#x200B;を選択します。
 
-マッピングされたフィールドは、Marketo修飾子の対応する領域に表示されます。
+マッピングされたフィールドは、Marketo Qualifierの対応する領域に表示されます。
 
 * 見込み客フィールドが&#x200B;**[!UICONTROL 人物]** タブに表示されます。
 * アカウントフィールドは、**[!UICONTROL アカウント]** タブに表示されます。
@@ -119,12 +125,12 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 ## ナレッジセンタープレイブックの作成 {#knowledge-center}
 
-**[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Marketo Qualifierは、これらの資料を利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
+**[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Marketo Qualifierは、これらの学習リソースを利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
 
-![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+![ ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します。
-1. Marketo Qualifierが会社の調査とメールのドラフトに使用する&#x200B;**[!UICONTROL 会社名]**&#x200B;と&#x200B;**[!UICONTROL 会社URL]**&#x200B;を設定します。
+1. Marketo Qualifierが会社を調査し、メールを作成するために使用する&#x200B;**[!UICONTROL 会社名]**&#x200B;および&#x200B;**[!UICONTROL 会社URL]**&#x200B;を設定します。
 1. セールスプレイ、ICP （理想的な顧客像）、ポジショニングガイドなど、さまざまな営業資料を、PDF、PPTX、DOCX形式でアップロードできます。
 1. 「**[!UICONTROL プレイブックを作成]**」を選択します。
 
@@ -138,8 +144,8 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの生成とレビュー](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの設定](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
@@ -152,7 +158,7 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 設定は自動的に保存されます。
 
-見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期させます。
+見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期させます。 また、Marketo Qualifierは、「メール配信を停止する」、「購読を解除する」など、見込み客のメール返信における明確なオプトアウトリクエストを認識し、見込み客を自動的にオプトアウトとしてマークします。 同じ&#x200B;**[!UICONTROL オプトアウト]**&#x200B;のステータスとバッジが適用され、それ以上のタッチポイントは送信されません。 追加の設定は必要ありません。 「今すぐではない」など、明確に停止を求めない回答はオプトアウトとして扱われません。 返信](outbound-workflows.md#opt-out-requests-in-replies)の[ オプトアウト要求を参照してください。
 
 ## リファレンス：サンプル API パラメーター
 

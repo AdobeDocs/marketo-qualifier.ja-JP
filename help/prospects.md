@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 アクセスできるリードと連絡先を表示するには、左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択します。 リストを使用して、各見込み客のステータスと最新のアクティビティを確認します。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](./assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL リード]**&#x200B;件のリードが、接続されたCRMで割り当てられました。
 * **[!UICONTROL 連絡先]**&#x200B;件の連絡先が、接続されたCRMで割り当てられました。
@@ -54,13 +54,13 @@ CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
 
-   ![&#x200B; ユーザーリスト &#x200B;](assets/prospects-people-list.png){width="800" zoomable="yes"}
+   ![ ユーザーリスト ](assets/prospects-people-list.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
      名前とメールアドレスが必要です。 姓はオプションです。 CSV テンプレートにはCRM リード ID列は含まれていませんが、読み込む前に列とその値をファイルに追加できます。 読み込みに失敗した場合は、エラーメッセージでフィールドまたは値を修正し、ファイルを再度アップロードします。
-     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierは、これらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)を含め、後で利用できるようにします。
+     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[ メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
    * 手動でユーザーを追加するには、そのユーザーの詳細をフォームに入力します。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -76,7 +76,7 @@ CRMから来ない見込み客を追加するには：
 * ソース
 * 最終更新日時
 
-また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
 
@@ -91,7 +91,7 @@ CRMから来ない見込み客を追加するには：
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [ マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 
@@ -106,11 +106,15 @@ CRMから来ない見込み客を追加するには：
 
 常任AIの人物の概要に加えて、**[!UICONTROL アカウント調査]**&#x200B;の横にある&#x200B;**[!UICONTROL 会議調査]** タブから、特定の今後の通話に合わせた会議準備を生成できます。
 
+Meeting prepは、見込み客とその企業に関するweb調査と、販売中の製品を使用している同僚の顧客に関するケーススタディからの証拠を組み合わせたものです。 ケーススタディのストーリーポイントには、測定可能な顧客の結果が含まれます。 ソースを組み合わせて1つのブリーフを作成し、関係者の関与を得てストーリーポイントをランク付けします。 それぞれが、ケーススタディ、web リサーチ、またはその両方に由来しているかどうかを特定します。 関連するケーススタディの証拠がない場合、meeting prepはweb調査を使用します。
+
 * **目標ベース** – 見込客が実行中のアウトバウンドワークフローに登録されている場合は、それを選択します。 この準備は、ミーティングの予約や見込み客の再エンゲージなど、アウトバウンドワークフローの目標と一致しています。
 * **カスタムプロンプト** – 準備する項目（例：`Focus on renewal risk`または`Prepare for a technical deep dive with their IT lead`）を入力します。 準備はプロンプトと一致しています。 カスタムプロンプトオプションは、見込み客が実行中のアウトバウンドワークフローにないときはいつでも使用できます。
+
+ブリーフは、選択したアウトバウンドワークフローの目標またはカスタムプロンプトに引き続き従います。 ミーティングの準備状況は変更されません。
 
 >[!MORELIKETHIS]
 >
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)
