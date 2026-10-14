@@ -1,11 +1,11 @@
 ---
 title: マーケティングハイライトの設定
-description: MarketoとAdobe Marketoの修飾子を連携して、担当者がマーケティングハイライトでライブのMarketo アクティビティによって見込み客を表示およびフィルタリングできるようにする方法について説明します。
+description: MarketoとAdobe Marketo Qualifierを連携して、担当者がマーケティングハイライトでMarketoのライブ活動を表示し、見込み客をフィルタリングできるようにする方法について説明します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -18,7 +18,7 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 3%
@@ -35,7 +35,7 @@ ht-degree: 3%
 設定には4つの部分があります。
 
 * パート A: Adobe Developer ConsoleでAPI資格情報を作成します。
-* パート B:Adobe Marketo修飾子エンドポイントと識別子を収集します。
+* パート B:Adobe Marketo Qualifier エンドポイントとIDを収集します。
 * パート C: [!DNL Marketo Engage]でWebhookを設定します。
 * パート D: Webhookをトリガースマートキャンペーンに追加します。
 
@@ -53,7 +53,7 @@ ht-degree: 3%
 1. **[!UICONTROL Add API]**&#x200B;を選択し、**[!UICONTROL Experience Platform API]**&#x200B;を選択してから、**[!UICONTROL Next]**&#x200B;を選択します。
 1. 認証タイプとして&#x200B;**[!UICONTROL OAuth サーバー間]**&#x200B;を選択し、**[!UICONTROL 次]**&#x200B;を選択します。
 
-   **[!UICONTROL OAuth Server-to-Server]**&#x200B;を使用すると、[!DNL Marketo]は、ユーザーにログインを求めずに、そのサーバーからMarketo Qualifier APIを直接呼び出すことができます。
+   **[!UICONTROL OAuth Server-to-Server]**&#x200B;を使用すると、[!DNL Marketo]はユーザーにログインを求めずに、そのサーバーから直接Marketo Qualifier APIを呼び出すことができます。
 
 1. `Marketo Qualifier Marketing Highlights Creds`など、45文字以下の資格情報名を入力してください。
 1. 製品プロファイルを関連付けるには、製品プロファイルを選択し、**[!UICONTROL 設定したAPIを保存]**&#x200B;を選択します。
@@ -170,7 +170,7 @@ Webhookを作成するには：
 
 ## パート D:Webhookをトリガースマートキャンペーンに追加する {#part-d-add-the-webhook-to-a-trigger-smart-campaign}
 
-**[!UICONTROL Call Webhook]** フローステップを、既存または新規のトリガースマートキャンペーンに追加します。 そのキャンペーンのスマートリストトリガーによって、どのアクティビティがMarketo修飾子に送信されるかが決まります。
+**[!UICONTROL Call Webhook]** フローステップを、既存または新規のトリガースマートキャンペーンに追加します。 そのキャンペーンのスマートリストトリガーが、Marketo Qualifierに送信するアクティビティを決定します。
 
 Webhookを追加するには：
 

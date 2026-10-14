@@ -3,12 +3,22 @@ title: '[!DNL Adobe Marketo Qualifier] リリースノート'
 description: '[!DNL Adobe Marketo Qualifier]の新機能について説明します。'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '390'
-ht-degree: 14%
+source-wordcount: '532'
+ht-degree: 12%
 ---
 # [!DNL Adobe Marketo Qualifier] リリースノート
+
+## 10-08-2026
+
+このリリースには次のものが含まれます。
+
+* アウトバウンドワークフローを再利用するか、実行中のワークフローのタッチポイントを変更し、それを複製してコピーを編集します。 コピーは、見込み客のいないプライベートドラフトとして開始され、元のワークフローは変更されません。 [詳細情報](outbound-workflows.md#duplicate-an-outbound-workflow)。
+* 目標、ターゲティング、タッチポイント、設定の間を移動できるコンパクトなレイアウトでアウトバウンドワークフローを設定できます。 [詳細情報](outbound-workflows.md#create-an-outbound-workflow)。
+* メール返信時に明確なオプトアウトリクエストが自動的に認識されます。 見込み客はオプトアウトとマークされ、それ以上の顧客接点は送信されません。 [詳細情報](outbound-workflows.md#opt-out-requests-in-replies)。
+* web調査と製品固有の顧客ケーススタディを、関連性と識別されたソースごとにランク付けしたトークポイントと組み合わせた、単一のブリーフでミーティングに備えることができます。 [詳細情報](prospects.md#generate-meeting-prep)。
+* 生成された電子メールは、品質ガイドラインと比較してチェックされ、必要に応じて書き換えられてレビューされます。 各メールは送信前にレビュー、編集、承認することになります。 [詳細情報](outbound-workflows.md#review-and-refine-generated-emails)。
 
 ## 09-22-2026
 

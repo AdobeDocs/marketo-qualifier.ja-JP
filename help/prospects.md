@@ -5,8 +5,8 @@ feature: Agentic AI, Sales Insights, Account Journeys
 role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
-  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-    internal-label: CX Enterprise
+  - id: d98caee2-fd67-486e-9513-36435358ebff
+    internal-label: Sales Qualifier
 feature_v2:
   - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
     internal-label: Integrations
@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 2124387555f5fb08ea19eaf121fc87aa66d66de2
+source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '852'
 ht-degree: 1%
 ---
 
@@ -60,7 +60,7 @@ CRMから来ない見込み客を追加するには：
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
      名前とメールアドレスが必要です。 姓はオプションです。 CSV テンプレートにはCRM リード ID列は含まれていませんが、読み込む前に列とその値をファイルに追加できます。 読み込みに失敗した場合は、エラーメッセージでフィールドまたは値を修正し、ファイルを再度アップロードします。
-     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierは、これらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)を含め、後で利用できるようにします。
+     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
    * 手動でユーザーを追加するには、そのユーザーの詳細をフォームに入力します。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -106,8 +106,12 @@ CRMから来ない見込み客を追加するには：
 
 常任AIの人物の概要に加えて、**[!UICONTROL アカウント調査]**&#x200B;の横にある&#x200B;**[!UICONTROL 会議調査]** タブから、特定の今後の通話に合わせた会議準備を生成できます。
 
+Meeting prepは、見込み客とその企業に関するweb調査と、販売中の製品を使用している同僚の顧客に関するケーススタディからの証拠を組み合わせたものです。 ケーススタディのストーリーポイントには、測定可能な顧客の結果が含まれます。 ソースを組み合わせて1つのブリーフを作成し、関係者の関与を得てストーリーポイントをランク付けします。 それぞれが、ケーススタディ、web リサーチ、またはその両方に由来しているかどうかを特定します。 関連するケーススタディの証拠がない場合、meeting prepはweb調査を使用します。
+
 * **目標ベース** – 見込客が実行中のアウトバウンドワークフローに登録されている場合は、それを選択します。 この準備は、ミーティングの予約や見込み客の再エンゲージなど、アウトバウンドワークフローの目標と一致しています。
 * **カスタムプロンプト** – 準備する項目（例：`Focus on renewal risk`または`Prepare for a technical deep dive with their IT lead`）を入力します。 準備はプロンプトと一致しています。 カスタムプロンプトオプションは、見込み客が実行中のアウトバウンドワークフローにないときはいつでも使用できます。
+
+ブリーフは、選択したアウトバウンドワークフローの目標またはカスタムプロンプトに引き続き従います。 ミーティングの準備状況は変更されません。
 
 >[!MORELIKETHIS]
 >
