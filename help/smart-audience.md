@@ -148,5 +148,5 @@ Betaでは、次の制限に注意してください。
 >
 >* [アカウント](accounts.md)
 >* [見込み客](prospects.md)
->* [ アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット ](ai-assistant.md)
+>* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット &#x200B;](ai-assistant.md)

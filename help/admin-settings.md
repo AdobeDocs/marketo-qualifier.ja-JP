@@ -78,7 +78,7 @@ CRMが接続されたら、接続の&#x200B;**[!UICONTROL 管理]**&#x200B;を�
 
    各フィールド行には、**[!UICONTROL 表示名]**、**[!UICONTROL フィールド名]**、**[!UICONTROL データタイプ]**&#x200B;が表示されます。
 
-1. **[!UICONTROL 見込み客]** リストおよび[ アウトバウンドワークフローターゲティング ](outbound-workflows.md#step-2-configure-targeting-filters)でフィルターとして使用する見込み客、取引先責任者、アカウント、または商談の各フィールドに対して&#x200B;**[!UICONTROL フィルター可能]**&#x200B;を有効にします。
+1. **[!UICONTROL 見込み客]** リストおよび[&#x200B; アウトバウンドワークフローターゲティング &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters)でフィルターとして使用する見込み客、取引先責任者、アカウント、または商談の各フィールドに対して&#x200B;**[!UICONTROL フィルター可能]**&#x200B;を有効にします。
 1. セクションをプレビューし、**[!UICONTROL 追加]**&#x200B;を選択します。
 
 マッピングされたフィールドは、Marketo Qualifierの対応する領域に表示されます。
@@ -129,7 +129,7 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 **[!UICONTROL ナレッジセンター]**&#x200B;では、Account Qualification Agent （AQA）が販売資料にアクセスできます。 Marketo Qualifierは、これらの学習リソースを利用して、調査、選定インサイト、自社の販売方法を反映したアウトリーチを生成します。 プレイブックを作成および管理できるのは管理者のみです。
 
-![ ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
+![&#x200B; ナレッジセンター](assets/knowledge-center.png){width="800" zoomable="yes"}
 
 1. 左側のナビゲーションで、**[!UICONTROL 管理]**&#x200B;を展開し、**[!UICONTROL 管理者設定]**&#x200B;を選択し、**[!UICONTROL ナレッジセンター]**&#x200B;を選択します。
 1. Marketo Qualifierが会社を調査し、メールを作成するために使用する&#x200B;**[!UICONTROL 会社名]**&#x200B;および&#x200B;**[!UICONTROL 会社URL]**&#x200B;を設定します。
@@ -146,8 +146,8 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 プレイブックの準備ができたら、担当者は次の2つの場所で使用できます。
 
-* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [ タッチポイントの設定](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
-* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット ](ai-assistant.md)を参照してください。
+* **送信メールプロンプト** - タッチポイントプロンプトで、ドキュメントに名前を付け、使用するコンテキストを記述します。 例えば、`Use the ABC positioning guide from the Knowledge Center and focus on the security value proposition`と入力します。 [&#x200B; タッチポイントの設定](outbound-workflows.md#step-3-generate-and-review-touchpoints)を参照してください。
+* **AI チャット**：質問のナレッジセンターを参照してください。 例えば、`From the Knowledge Center, help me position our security solution for ABC Corp before tomorrow's call`と入力します。 [AI チャット &#x200B;](ai-assistant.md)を参照してください。
 
 どちらの場合も、生成されたコンテンツは、一般的な調査ではなく、プレイブックのメッセージを反映します。
 
@@ -160,7 +160,7 @@ CRM同期ルールを設定すれば、セールス部門は、リード、取�
 
 設定は自動的に保存されます。
 
-見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期させます。 また、Marketo Qualifierは、「メール配信を停止する」、「購読を解除する」など、見込み客のメール返信における明確なオプトアウトリクエストを認識し、見込み客を自動的にオプトアウトとしてマークします。 同じ&#x200B;**[!UICONTROL オプトアウト]**&#x200B;のステータスとバッジが適用され、それ以上のタッチポイントは送信されません。 追加の設定は必要ありません。 「今すぐではない」など、明確に停止を求めない回答はオプトアウトとして扱われません。 返信](outbound-workflows.md#opt-out-requests-in-replies)の[ オプトアウト要求を参照してください。
+見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期させます。 また、Marketo Qualifierは、「メール配信を停止する」、「購読を解除する」など、見込み客のメール返信における明確なオプトアウトリクエストを認識し、見込み客を自動的にオプトアウトとしてマークします。 同じ&#x200B;**[!UICONTROL オプトアウト]**&#x200B;のステータスとバッジが適用され、それ以上のタッチポイントは送信されません。 追加の設定は必要ありません。 「今すぐではない」など、明確に停止を求めない回答はオプトアウトとして扱われません。 返信[&#128279;](outbound-workflows.md#opt-out-requests-in-replies)の オプトアウト要求を参照してください。
 
 ## リファレンス：サンプル API パラメーター
 
