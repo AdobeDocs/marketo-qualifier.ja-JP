@@ -13,15 +13,17 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: 30abc8c57bb9b7a57f68c8e7daecc1bf3ac36567
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '703'
 ht-degree: 0%
 ---
 
 # アカウント
 
 アカウントビューでは、AIが生成した調査、最近のニュース、オープンな機会、パイプラインの価値、エンゲージメントした連絡先を確認できます。 この情報は、連絡を取る前にアカウントについて理解し、優先順位を付けるために使用します。
+
+一度に複数のアカウントを検索して優先順位を付けるには、[ スマートオーディエンス（Beta） ](smart-audience.md)を使用します。 アカウントリストを構築し、CRM データや成長シグナルで絞り込み、アウトバウンドワークフローに追加するリードを見つけます。
 
 ## アカウントを開く
 
@@ -30,7 +32,7 @@ ht-degree: 0%
 1. 左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択し、見込み客を開きます。 [見込み客](prospects.md)を参照してください。
 1. 見込み客の詳細ページで、「**[!UICONTROL アカウント]**」タブを選択します。
 
-![人物タブとアカウントタブを含む見込み客の詳細ページ &#x200B;](./assets/account-home.png){width="800" zoomable="yes"}
+![人物タブとアカウントタブを含む見込み客の詳細ページ ](./assets/account-home.png){width="800" zoomable="yes"}
 
 Adobe Marketo Qualifierは、見込み客のCRM レコードからアカウントを特定します。 そのアカウントに関連付けられたあらゆる見込み客から、同じアカウントビューを利用できます。 Marketo Qualifierがアカウントと一致しない場合、タブには&#x200B;_アカウントが見つかりません_&#x200B;と表示されます。
 
@@ -66,11 +68,13 @@ Adobe Marketo Qualifierは、見込み客のCRM レコードからアカウン�
 | **[!UICONTROL トップメンバー]** | アカウントの最もエンゲージメントの高い連絡先（エンゲージメント別）。 各連絡先には、役職、メールアドレス、エンゲージメントスコア、緊急度インジケーターが表示されます。 |
 | **[!UICONTROL インテントデータ]** | 購買意欲のシグナル：アカウントが調査している製品やトピックなど、アカウントの購買意欲を示します。 |
 | **[!UICONTROL アカウントチームメンバー]** | アカウントに割り当てられた人物、メール、役職、地域、製品グループ。 |
-| **[!UICONTROL CRM フィールド]** | インバウンドマッピングで設定されているように、CRMからアカウントフィールドを読み込みます。 [統合](integrations.md#map-crm-fields-inbound-mapping)を参照してください。 |
+| **[!UICONTROL CRM フィールド]** | インバウンドマッピングで設定されているように、CRMからアカウントフィールドを読み込みます。 |
+
+管理者がフィルタリング可能にするフィールドを使用して、関連するアカウントで連絡先をフィルタリングしたり、アウトバウンドワークフローのターゲティング条件を定義したりすることもできます。 [統合](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL トップメンバー]** ビューから、連絡先に対して次のいずれかのアクションを実行します。
 
-* **[!UICONTROL アウトバウンドワークフローに追加]** - [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)に連絡先を登録します。
+* **[!UICONTROL アウトバウンドワークフローに追加]** - [ アウトバウンドワークフロー](outbound-workflows.md)に連絡先を登録します。
 * **[!UICONTROL Add to Marketo campaign]**：取引先責任者の[!DNL Marketo] キャンペーンをトリガーします。
 
 ## アカウントを調査
@@ -81,7 +85,7 @@ Adobe Marketo Qualifierは、見込み客のCRM レコードからアカウン�
 * **研究コンテンツ** - AIが生成した研究カードをカテゴリ別にグループ化します。 カードには、ソースドメインと、信号が最初に検出された日付と最後に検出された日付を含めることができます。
 * **[!UICONTROL 最近のニュース]** – 日付、タグ、ソースリンクなど、アカウントに関する最新のニュース。
 
-![&#x200B; アカウント調査タブ &#x200B;](./assets/account-detail.png){width="800" zoomable="yes"}
+![ アカウント調査タブ ](./assets/account-detail.png){width="800" zoomable="yes"}
 
 調査またはニュースを読み込めない場合は、各領域で&#x200B;**[!UICONTROL 再読み込み]** アクションを再試行できます。
 
@@ -92,10 +96,10 @@ Adobe Marketo Qualifierは、見込み客のCRM レコードからアカウン�
 * 一般的なプレゼンテーションではなく、最近のニュース記事や調査シグナルを参考に、開封率を適切なものにしましょう。
 * オープン機会とパイプライン値をチェックして、アカウントの優先順位を決定します。
 * **[!UICONTROL トップメンバー]**&#x200B;を使用して連絡先を特定し、アウトバウンドワークフローに登録します。
-* 電話をかける前に、[AI チャット &#x200B;](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
+* 電話をかける前に、[AI チャット ](ai-assistant.md)にアカウントのポジショニングを開発するように依頼します。
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)

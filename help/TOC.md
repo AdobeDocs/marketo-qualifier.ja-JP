@@ -1,10 +1,10 @@
 ---
 user-guide-title: '[!DNL Adobe Marketo Qualifier]'
 user-guide-description: '[!DNL Adobe Marketo Qualifier]を使用して、B2B セールス チームの見込み顧客の選定、アウトリーチ、バイヤーエンゲージメントを自動化する方法について説明します。'
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '42'
-ht-degree: 26%
+source-wordcount: '45'
+ht-degree: 24%
 ---
 # [!DNL Adobe Marketo Qualifier] ガイド {#using}
 
@@ -13,6 +13,7 @@ ht-degree: 26%
 + [基本を学ぶ](getting-started.md)
 + [見込み客](prospects.md)
 + [アカウント](accounts.md)
++ [スマートオーディエンス（Beta）](smart-audience.md)
 + [アウトバウンドワークフロー](outbound-workflows.md)
 + [電子メール送信トレイ](email-outbox.md)
 + [タスク](tasks.md)

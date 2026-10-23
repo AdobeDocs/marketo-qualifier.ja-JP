@@ -15,9 +15,9 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '953'
 ht-degree: 1%
 ---
 
@@ -25,10 +25,10 @@ ht-degree: 1%
 
 アクセスできるリードと連絡先を表示するには、左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択します。 リストを使用して、各見込み客のステータスと最新のアクティビティを確認します。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](./assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL リード]**&#x200B;件のリードが、接続されたCRMで割り当てられました。
-* **[!UICONTROL 連絡先]**&#x200B;件の連絡先が、接続されたCRMで割り当てられました。
+* 接続されたCRMで割り当てられた&#x200B;**[!UICONTROL 連絡先]**&#x200B;の連絡先と、関連するアカウント。 連絡先の詳細には、所有者の名前も含まれます。 これらの詳細は、SalesforceおよびMicrosoft Dynamics 365で確認できます。
 * 電子メールの開封数やクリック数など、Marketoのライブのアクティビティを持つ&#x200B;**[!UICONTROL マーケティングハイライト]**&#x200B;の見込み客。
 * 手動で読み込むか追加する&#x200B;**[!UICONTROL 人物リスト]**&#x200B;の見込み客。
 
@@ -54,13 +54,13 @@ CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
 
-   ![&#x200B; ユーザーリスト &#x200B;](assets/prospects-people-list.png){width="800" zoomable="yes"}
+   ![ ユーザーリスト ](assets/prospects-people-list.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
      名前とメールアドレスが必要です。 姓はオプションです。 CSV テンプレートにはCRM リード ID列は含まれていませんが、読み込む前に列とその値をファイルに追加できます。 読み込みに失敗した場合は、エラーメッセージでフィールドまたは値を修正し、ファイルを再度アップロードします。
-     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
+     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[ メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
    * 手動でユーザーを追加するには、そのユーザーの詳細をフォームに入力します。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -76,9 +76,11 @@ CRMから来ない見込み客を追加するには：
 * ソース
 * 最終更新日時
 
-また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
+
+業界、地域、アカウントタイプなど、関連するアカウントのフィールドを使用して連絡先をフィルタリングすることもできます。 管理者は、フィルター可能なアカウントフィールドを選択します。 アカウント、取引先責任者、商談のフィルターを組み合わせて、特定の業界のアカウントで特定の役割を担うコンタクトを見つけることができます。 アカウントフィールドフィルタリングは、SalesforceおよびMicrosoft Dynamics 365で使用でき、同じフィールドを[ アウトバウンドワークフローターゲティング ](outbound-workflows.md#step-2-configure-targeting-filters)で使用できます。
 
 ### マーケティングのハイライトでフィルタリング
 
@@ -91,15 +93,15 @@ CRMから来ない見込み客を追加するには：
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [ マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 
 見込み客のプロファイルを開くには、見込み客を選択します。 連絡を取る前に、重要なシグナルを確認してください。
 
 * **AI人物の概要** - リードまたは取引先責任者とその最近のエンゲージメントのAIによるスナップショット。 個人の活動を確認する前に、概要を使用して個人をすばやく理解します。 AI人物の概要は、[!DNL Marketo Optimizer] PrimeまたはUltimateを実行しているインスタンスで利用できます。
-* **アクティビティ リスト** - アクティビティと最近の動作の時系列リスト。
-* **タイムラインビュー**：チャネル間のエンゲージメントの視覚的なタイムライン。
+* **アクティビティリスト** – 過去90日間のマーケティング活動を時系列で表示します。
+* **タイムラインビュー** – 過去90日間のマーケティングエンゲージメントをチャネルをまたいで表示した視覚的なタイムラインです。
 * **閲覧コンテンツ** – 見込客が閲覧したWeb ページおよびアセット。 項目を開くには、その項目を選択します。
 
 ### ミーティング準備の生成
@@ -116,5 +118,5 @@ Meeting prepは、見込み客とその企業に関するweb調査と、販売�
 >[!MORELIKETHIS]
 >
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)

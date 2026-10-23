@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ ht-degree: 18%
 ## [!DNL Marketo Qualifier]でできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
+* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[ スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。
 * **電話、LinkedIn InMails、メールレビュー用の1つのキュー**&#x200B;でアウトリーチを処理します。
 * カレンダーを接続し、個人予約リンクをケイデンスに挿入することで、**ミーティングを自動的に予約する**。
@@ -39,7 +40,7 @@ ht-degree: 18%
 * **CRM、エンゲージメント、ナレッジセンターのデータを使用するAI チャットを使用して、自然言語で質問する**。
 * **電子メールとミーティング予約レポートを使用して、アウトリーチのパフォーマンス**&#x200B;を追跡します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3476550)
 
 ## ホームページの使用
 
@@ -51,7 +52,7 @@ ht-degree: 18%
 
 ::::landing-cards-container
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -61,7 +62,7 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 見込み客
 
@@ -71,7 +72,7 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 アカウント
 
@@ -81,7 +82,17 @@ ht-degree: 18%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
+
+スマートオーディエンス（Beta）
+
+アカウントとリードリストを構築して優先順位を付け、選択したリードをアウトバウンドワークフローに追加します。
+
+[スマートオーディエンス（Beta）](smart-audience.md)
+:::
+
+:::card
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アウトバウンドワークフロー
 
@@ -91,7 +102,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 タスク
 
@@ -101,7 +112,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 パフォーマンス
 
@@ -111,7 +122,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ナレッジセンター
 
@@ -121,7 +132,7 @@ AIのアウトリーチとマテリアル内の支援を基盤とするプレイ
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 統合
 
@@ -131,7 +142,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 プロファイル設定
 
@@ -141,7 +152,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI チャット
 

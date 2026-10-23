@@ -3,12 +3,18 @@ title: '[!DNL Adobe Marketo Qualifier] リリースノート'
 description: '[!DNL Adobe Marketo Qualifier]の新機能について説明します。'
 feature: Agentic AI, Sales Insights, Account Journeys
 role: User
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 12%
+source-wordcount: '619'
+ht-degree: 11%
 ---
 # [!DNL Adobe Marketo Qualifier] リリースノート
+
+## 今後のリリース
+
+* スマートオーディエンス（Beta）で適切なアカウントとリードを見つけ、優先順位を付けましょう。 必要なアカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、スコアリングリードを確認し、アウトバウンドワークフローに追加します。 [詳細情報](smart-audience.md)。
+* アカウントフィールドと連絡先フィールドおよび商談フィールドで連絡先をフィルタリングし、適切な連絡先を見つけ、アウトバウンドワークフローをより正確にターゲティングできます。 [詳細情報](prospects.md#filter-and-find-prospects)。
+* コンタクトには関連するアカウントとオーナーの名前が表示され、見込み客のページにはマーケティング活動の90日間が表示され、30日間から増加しました。 [詳細情報](prospects.md#review-prospect-details)。
 
 ## 10-08-2026
 
@@ -49,7 +55,7 @@ ht-degree: 12%
 
 このリリースには次のものが含まれます。
 
-* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[&#x200B; アカウント &#x200B;](accounts.md#account-insights)を確認します。
+* AIが生成したアクティビティの概要とシグナルベースのスコアリングによる、見込み顧客とアカウントの優先順位付け。 [見込み顧客に関する詳細](prospects.md#review-prospect-details)または[ アカウント ](accounts.md#account-insights)を確認します。
 * AIが提案したケイデンスとドラフト付きメールによる、目標主導のアウトバウンドワークフロー。 [詳細情報](outbound-workflows.md)。
 * 電話、LinkedInMails、メールレビュー用の統合タスクキュー。 [詳細情報](tasks.md)。
 * カレンダー統合によるミーティングの自動予約。 [詳細情報](outbound-workflows.md#meeting-booking)。

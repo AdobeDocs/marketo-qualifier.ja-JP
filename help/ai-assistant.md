@@ -16,9 +16,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: 042ebc0019d33019940ff8ad98c0635cb97235f0
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '754'
 ht-degree: 1%
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 1%
 
 AI チャットは、セールスコンテキストにもとづいて自然言語の質問に回答します。 アカウントの調査、電話の準備、アウトリーチのドラフト作成、[!DNL Adobe Marketo Qualifier]を離れずに作業の優先順位付けなどに使用できます。
 
-![AI チャット ボタン &#x200B;](assets/ai-chat.png){width="800" zoomable="yes"}
+![AI チャット ボタン ](assets/ai-chat.png){width="800" zoomable="yes"}
 
 ## AI チャットを開く
 
@@ -40,7 +40,7 @@ AI チャットは、セールスコンテキストにもとづいて自然言�
 
 AI Chatでは、次のソースを使用できます。
 
-* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
+* [ ナレッジセンター](admin-settings.md#knowledge-center)にある組織のプレイブック。
 * リード、取引先責任者、アカウント、商談、アクティビティなど、連携されたCRM。
 * [!DNL Marketo] アクティビティとエンゲージメント データ。
 * アカウント調査とAccount Qualification Agentによって収集された最近のニュース。
@@ -58,7 +58,7 @@ AI Chatでは、次のソースを使用できます。
 
 ## 接続されたデータ全体でAI チャットを尋ねる
 
-AI チャットは、[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]、および企業インテリジェンスデータに関する質問に答えることができます。 平易な言葉で質問することで、情報を検索したり、コンテキストを取得したりできます。 AI Chatは、データを読み取り、レポートを作成します。何も作成、編集、起動することはありません。
+AI チャットは、[!DNL Marketo Qualifier]、CRM、[!DNL Marketo]、[!DNL Marketo Optimizer]、および企業インテリジェンスデータに関する質問に答えることができます。 平易な言葉で質問することで、情報を検索したり、コンテキストを取得したりできます。 これらの接続されたデータ参照は、データを読み取り、レポートします。プログラムやキャンペーンを作成、編集、起動することはありません。
 
 ここでは、プロンプトの例をいくつか紹介します。 プロンプトを具体的に示せば示すほど、より的を絞った結果を得ることができます。
 
@@ -106,12 +106,13 @@ CRM:
 
 ### 現在の範囲と限界
 
-* AI チャットにより、データを読み取り、レポートを作成できます。 何かを作成、編集、または起動することはありません。 例えば、プログラムを作成したり、キャンペーンを開始したり、リストを編集したりすることはありません。
+* データ接続ルックアップ データの読み取りとレポート。 プログラムの作成、キャンペーンの開始、CRM レコードの編集は行いません。
+* [ スマートオーディエンス（Beta） ](smart-audience.md)では、チャットは、リストの保存、情報列の追加、アカウントとリードのフィルタリングと優先順位付け、選択したリードの既存のアウトバウンドワークフローへの追加など、オーディエンスリストのアクションをサポートしています。 これは、CRMへの書き込みも、メールのレビューと承認の代わりにもなりません。
 * AI Chatは情報を検索します。レポートツールではありません。 四半期のメールの健全性や、過去10日間に作成されたリードのリストなど、[!DNL Marketo]形式の分析やトレンドを長期的に構築するものではありません。 これらのタスクには、ネイティブ [!DNL Marketo] レポートを使用します。
 
 ## プレイブック内の回答のグラウンド
 
-[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
+[ ナレッジセンター](admin-settings.md#knowledge-center) プレイブックを使用するには、質問のナレッジセンターを参照してください。 例：
 
 `From the Knowledge Center, help me position our security solution for ABC Corp ahead of tomorrow's call.`
 
@@ -133,6 +134,6 @@ Adobeの生成AIに関する用語は、AI チャットの利用状況を規定�
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)
+>* [ ナレッジセンター](admin-settings.md#knowledge-center)
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
