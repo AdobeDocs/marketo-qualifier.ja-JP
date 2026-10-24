@@ -18,9 +18,9 @@ topic_v2:
     internal-label: Security
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1510'
 ht-degree: 1%
 ---
 
@@ -147,9 +147,11 @@ Marketo Qualifierが資格情報を拒否した場合は、無効または期限
 
 1. **[!UICONTROL セクション名]**&#x200B;と、オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。
 1. **[!UICONTROL フィールドを追加]** ステップで、CRM フィールドを読み込むには、それらを検索して選択します。 次に、続行するには、**[!UICONTROL 次へ]**&#x200B;を選択します。 各フィールドには、**[!UICONTROL 表示名]**、**[!UICONTROL フィールド名]**、**[!UICONTROL データタイプ]**&#x200B;が表示されます。
-1. **[!UICONTROL 見込み客]**、**[!UICONTROL 連絡先]**、および&#x200B;**[!UICONTROL 商談]** セクションの場合、[見込み客](prospects.md) リストで担当者が必要とする各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。
+1. **[!UICONTROL 見込み客]**、**[!UICONTROL 連絡先]**、**[!UICONTROL アカウント]**、および&#x200B;**[!UICONTROL 商談]**&#x200B;のセクションで、担当者が[見込み客](prospects.md#filter-and-find-prospects) リストまたは[&#x200B; アウトバウンドワークフローのターゲット &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters)で必要とする各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。
 
    フィールドのデータタイプがフィルタリングをサポートしていない場合、または別のセクションで既に使用されている場合、フィールドをフィルタリングすることはできません。
+
+   フィルター可能なアカウントフィールドを使用すると、業界、地域、アカウントタイプなどの関連するアカウントの属性によって連絡先をフィルターできます。 アカウント、取引先責任者、商談のフィルターを組み合わせて、アウトバウンドワークフローの対象となる取引先責任者を定義できます。 アカウントフィールドフィルタリングは、SalesforceおよびMicrosoft Dynamics 365で使用できます。
 
    **[!UICONTROL 自分の商談コンタクト]**&#x200B;では、フィルター可能な商談フィールドが、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルを持つ別々の列として表示されます。 接尾辞は、関連する連絡先のフィールドから商談属性を区別します。
 

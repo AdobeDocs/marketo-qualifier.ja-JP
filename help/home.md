@@ -17,10 +17,10 @@ topic_v2:
     internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
     internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: bf94a2d28913093923f446025405339e4e64919c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 18%
+source-wordcount: '517'
+ht-degree: 17%
 ---
 
 # [!DNL Adobe Marketo Qualifier]
@@ -32,6 +32,7 @@ ht-degree: 18%
 ## [!DNL Marketo Qualifier]でできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
+* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[&#x200B; スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。
 * **電話、LinkedIn InMails、メールレビュー用の1つのキュー**&#x200B;でアウトリーチを処理します。
 * カレンダーを接続し、個人予約リンクをケイデンスに挿入することで、**ミーティングを自動的に予約する**。
@@ -78,6 +79,16 @@ ht-degree: 18%
 アカウントレベルのパイプラインとエンゲージメントデータでアウトリーチを優先する。
 
 [アカウント](accounts.md)
+:::
+
+:::card
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+
+スマートオーディエンス（Beta）
+
+アカウントとリードリストを構築して優先順位を付け、選択したリードをアウトバウンドワークフローに追加します。
+
+[スマートオーディエンス（Beta）](smart-audience.md)
 :::
 
 :::card
