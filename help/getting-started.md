@@ -6,22 +6,27 @@ role: Admin
 TQID: 'https://experienceleague.adobe.com/-nfmFwZyZFUZhm-uQUjSyTvrORuqJgKSKnENWYtvubs'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
+  - id: da701e37-3227-4187-b68a-914277252a79
     internal-label: Integrations
-  - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+  - id: f8f8b877-7295-5853-989f-e21f73bc94c4
     internal-label: Administration
+subfeature_v2:
+  - id: 74576239-3a5e-5e17-9c2d-f86db4fbb490
+    internal-label: User management
+  - id: d2fe5f36-5653-5902-937c-9d3026104284
+    internal-label: CRM integrations
+role_v2:
+  - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
+    internal-label: Admin
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: d095671a-1355-40aa-8b5f-06c33c68080b
-    internal-label: Security
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
 workflow-type: tm+mt
 source-wordcount: '1020'
 ht-degree: 0%
@@ -31,13 +36,13 @@ ht-degree: 0%
 
 AdobeがMarketo Qualifierを組織にプロビジョニングした後、必要なユーザーグループを作成し、SalesforceまたはMicrosoft Dynamics 365に接続する必要があります。[!DNL Marketo]
 
-![Marketo Qualifier ホームページ &#x200B;](assets/homepage.png){width="800" zoomable="yes"}
+![Marketo Qualifier ホームページ ](assets/homepage.png){width="800" zoomable="yes"}
 
 ## ユーザーグループの設定
 
 Adobe Admin Consoleのユーザーグループは、Marketo Qualifierへのアクセスを制御するために使用されます。 ユーザーがログインするには、両方のグループを作成する必要があります。
 
-グループの設定について詳しくは、[Adobe Admin Console ドキュメント &#x200B;](https://helpx.adobe.com/jp/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
+グループの設定について詳しくは、[Adobe Admin Console ドキュメント ](https://helpx.adobe.com/business/enterprise/users/users-and-groups/user-groups.html)を参照してください。
 
 >[!PREREQUISITES]
 >
@@ -62,7 +67,7 @@ Adobe Admin Consoleのユーザーグループは、Marketo Qualifierへのア�
 
 ### Marketo Qualifier管理者
 
-CRM接続、[&#x200B; ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
+CRM接続、[ ナレッジセンター](admin-settings.md#knowledge-center)、およびグローバルメールオプトアウト設定を設定する管理者も、`Marketo Qualifier Admins` ユーザーグループに属している必要があります。
 
 1. Adobe Admin Consoleで、**[!UICONTROL Users]** > **[!UICONTROL User groups]** > **[!UICONTROL New user group]**&#x200B;を選択します。
 1. グループ名に「`Marketo Qualifier Admins`」と入力し、**[!UICONTROL 保存]**&#x200B;を選択します。
@@ -123,7 +128,7 @@ Salesforce システム管理者は、外部クライアントアプリ（接続
    * コールバック URL
    * Salesforce インスタンス URL
 
-手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント &#x200B;](https://help.salesforce.com/s/?language=en_US)を参照してください。
+手順は、ここで説明するのとは少し異なります。 詳しくは、[Salesforce ドキュメント ](https://help.salesforce.com/s/?language=en_US)を参照してください。
 
 ### Salesforce インスタンス URLの検索
 
@@ -171,11 +176,11 @@ Microsoft Dynamics 365またはAzure管理者は、アプリケーションを�
 
 CRMを接続したら、インバウンドマッピングを設定して、Marketo Qualifier内に表示されるCRM フィールドを決定します。 **[!UICONTROL インバウンドマッピング]**&#x200B;を開くには、接続されているCRM カードの&#x200B;**[!UICONTROL 管理]**&#x200B;を選択し、読み込むフィールドを持つ各エンティティタイプのセクションを追加します。
 
-インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
 
 >[!MORELIKETHIS]
 >
 >* [見込み客](prospects.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)

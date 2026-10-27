@@ -6,18 +6,22 @@ role: User
 TQID: 'https://experienceleague.adobe.com/4IsAlgFBxddHCz0-CLCDXPCHI7m3motiXhgCR6MZq0k'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: ace0d1fc-8e69-4e6a-a442-37fc40985eea
+    internal-label: Account Qualification Agent
+  - id: abf46024-b86e-4240-96ee-3f23636dfc27
+    internal-label: Outbound Workflows
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
-  - id: aa2f3246-cb95-4b30-8899-fdf7d73550cc
-    internal-label: Reporting
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+  - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
+    internal-label: Artificial intelligence
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '517'
 ht-degree: 17%
@@ -32,7 +36,7 @@ ht-degree: 17%
 ## [!DNL Marketo Qualifier]でできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
-* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[&#x200B; スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
+* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[ スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。
 * **電話、LinkedIn InMails、メールレビュー用の1つのキュー**&#x200B;でアウトリーチを処理します。
 * カレンダーを接続し、個人予約リンクをケイデンスに挿入することで、**ミーティングを自動的に予約する**。
@@ -40,7 +44,7 @@ ht-degree: 17%
 * **CRM、エンゲージメント、ナレッジセンターのデータを使用するAI チャットを使用して、自然言語で質問する**。
 * **電子メールとミーティング予約レポートを使用して、アウトリーチのパフォーマンス**&#x200B;を追跡します。
 
->[!VIDEO](https://video.tv.adobe.com/v/3476562?captions=jpn)
+>[!VIDEO](https://video.tv.adobe.com/v/3505339)
 
 ## ホームページの使用
 
@@ -52,7 +56,7 @@ ht-degree: 17%
 
 ::::landing-cards-container
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 基本を学ぶ
 
@@ -62,7 +66,7 @@ ht-degree: 17%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 見込み客
 
@@ -72,7 +76,7 @@ ht-degree: 17%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 アカウント
 
@@ -82,7 +86,7 @@ ht-degree: 17%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 スマートオーディエンス（Beta）
 
@@ -92,7 +96,7 @@ ht-degree: 17%
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/code-branch.svg)
 
 アウトバウンドワークフロー
 
@@ -102,7 +106,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 タスク
 
@@ -112,7 +116,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 パフォーマンス
 
@@ -122,7 +126,7 @@ AIを活用してパーソナライズされたメールで、目標主導型の
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 ナレッジセンター
 
@@ -132,7 +136,7 @@ AIのアウトリーチとマテリアル内の支援を基盤とするプレイ
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 統合
 
@@ -142,7 +146,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg)
 
 プロファイル設定
 
@@ -152,7 +156,7 @@ SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピン
 :::
 
 :::card
-![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg?lang=ja)
+![アイコン](https://cdn.experienceleague.adobe.com/icons/circle-play.svg)
 
 AI チャット
 

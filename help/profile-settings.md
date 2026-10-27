@@ -6,20 +6,20 @@ role: User
 TQID: 'https://experienceleague.adobe.com/YsrBduYA7jKhgxttexqMBBpgDIq23s6wUb4Wp6y6h3g'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: 1e0ea71a-a210-5748-9b0f-c02c2ef6a746
-    internal-label: Workflows
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: f8c781b4-253f-436e-b9f1-a71172814e41
+    internal-label: Profile Settings
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: e8ccd51f-da0d-4e3b-939b-e30d5ebb1ea5
+    internal-label: Beginner
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e0eb8757-182f-49f3-94a4-1587d16f5094
-    internal-label: Personalization
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: 3b50b4d3000696cb25ef747fefd579cfd3b3ba0f
+  - id: beb7a3c1-66ab-4786-b879-7621375b3c40
+    internal-label: Email marketing
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '396'
 ht-degree: 3%
@@ -29,23 +29,23 @@ ht-degree: 3%
 
 左側のナビゲーションで、**[!UICONTROL 設定]**&#x200B;を展開し、**[!UICONTROL プロファイル設定]**&#x200B;を選択します。 これらの設定を使用して、個人情報、メール接続、カレンダー、チャットの空き状況を管理します。
 
-![&#x200B; プロファイル設定](assets/profile-email-config.png)
+![ プロファイル設定](assets/profile-email-config.png)
 
 ## メールの設定
 
 「**[!UICONTROL メール設定]**」タブで、メール接続を設定します。
 
 * **[!UICONTROL メール接続]** — Microsoft OutlookまたはGoogleを選択し、サインインプロセスに従います。 必要に応じて、承認するアクセスと管理者の承認パスについては、[Connect Outlook](integrations.md#connect-outlook)を参照してください。
-* **[!UICONTROL 電子メール署名]** – 生成された電子メールで使用される署名を追加または更新します。 見込み客が時間を予約できるように、[&#x200B; ミーティング予約](outbound-workflows.md#meeting-booking)のリンクを含めます。
+* **[!UICONTROL 電子メール署名]** – 生成された電子メールで使用される署名を追加または更新します。 見込み客が時間を予約できるように、[ ミーティング予約](outbound-workflows.md#meeting-booking)のリンクを含めます。
 * **[!UICONTROL ミーティング予約リンク]** - メール内でミーティング招待状を送信します。 ミーティングのURLを取得します。
 
 ### メール作成コンテキスト
 
-![&#x200B; メールのコンテキスト &#x200B;](assets/profile-email-instructions.png)
+![ メールのコンテキスト ](assets/profile-email-instructions.png)
 
 電子メールのトーン、構造、スタイルを設定するには、**[!UICONTROL 電子メール作成コンテキスト]**&#x200B;を使用して、電子メールの一貫性を保ちます。
 
-コンテキストは、**[!UICONTROL メール作成コンテキスト]**&#x200B;領域のプレーンマークダウンに書きます。
+コンテキストは、**[!UICONTROL メール作成コンテキスト]**領域のプレーンマークダウンに書きます。
 これを使用して、次の項目を定義します。
 
 * トーンとボイス
@@ -92,6 +92,6 @@ Marketo Qualifierは、接続されたカレンダーから、イベントの詳
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
 >* [統合](integrations.md)
 >* [タスク](tasks.md)

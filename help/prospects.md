@@ -6,16 +6,27 @@ role: User
 TQID: 'https://experienceleague.adobe.com/zf2H5rq1JlIT26LqLPMrm2Mq3tSIrLOiTEw6BXb1w2U'
 product_v2:
   - id: d98caee2-fd67-486e-9513-36435358ebff
-    internal-label: Sales Qualifier
+    internal-label: Marketo Qualifier
 feature_v2:
-  - id: fc7979f3-56c3-43ca-9784-f1ea3dc69c4b
-    internal-label: Integrations
+  - id: da87d43a-78d4-4b1e-bb4a-743cbd343472
+    internal-label: Prospects
+subfeature_v2:
+  - id: 6aa13f53-6e49-5228-b98a-64c9ebe5af74
+    internal-label: Contacts
+  - id: 4143255e-1853-5eb6-a189-dece7126669f
+    internal-label: Leads
+  - id: 78e1f6f5-7122-5e4d-81c3-d3a90e954414
+    internal-label: People lists
+role_v2:
+  - id: b69b2659-1057-424e-8fc5-ed9e016dc554
+    internal-label: User
+level_v2:
+  - id: b5a62a22-46f7-4f0d-b151-3fc640bef588
+    internal-label: Intermediate
 topic_v2:
-  - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
-    internal-label: Customer experience
-  - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-    internal-label: Insights
-source-git-commit: bf94a2d28913093923f446025405339e4e64919c
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+    internal-label: Customer profiles
+source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
 workflow-type: tm+mt
 source-wordcount: '953'
 ht-degree: 1%
@@ -25,7 +36,7 @@ ht-degree: 1%
 
 アクセスできるリードと連絡先を表示するには、左側のナビゲーションで「**[!UICONTROL 見込み客]**」を選択します。 リストを使用して、各見込み客のステータスと最新のアクティビティを確認します。
 
-リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル &#x200B;](./assets/prospects.png){width="800" zoomable="yes"}
+リードのステータスと見込み客の管理の最後のアクティビティを表示する![見込み客テーブル ](./assets/prospects.png){width="800" zoomable="yes"}
 
 * **[!UICONTROL リード]**&#x200B;件のリードが、接続されたCRMで割り当てられました。
 * 接続されたCRMで割り当てられた&#x200B;**[!UICONTROL 連絡先]**&#x200B;の連絡先と、関連するアカウント。 連絡先の詳細には、所有者の名前も含まれます。 これらの詳細は、SalesforceおよびMicrosoft Dynamics 365で確認できます。
@@ -54,13 +65,13 @@ CRMから来ない見込み客を追加するには：
 
 1. **[!UICONTROL 見込み客]** ページで、**[!UICONTROL 人物一覧]**&#x200B;を選択します。
 
-   ![&#x200B; ユーザーリスト &#x200B;](assets/prospects-people-list.png){width="800" zoomable="yes"}
+   ![ ユーザーリスト ](assets/prospects-people-list.png){width="800" zoomable="yes"}
 
 1. **[!UICONTROL +人を追加]**&#x200B;を選択してから、**[!UICONTROL CSVを読み込み]**&#x200B;または&#x200B;**[!UICONTROL 人を追加]**&#x200B;を選択します。
 
    * CSVを読み込む場合は、`firstname,email`形式のCSVをアップロードします。
      名前とメールアドレスが必要です。 姓はオプションです。 CSV テンプレートにはCRM リード ID列は含まれていませんが、読み込む前に列とその値をファイルに追加できます。 読み込みに失敗した場合は、エラーメッセージでフィールドまたは値を修正し、ファイルを再度アップロードします。
-     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[&#x200B; メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
+     標準フィールドだけでなく、カスタムまたは追加のCSV フィールドもマッピングできます。 Marketo Qualifierはこれらの値を各見込み客に保存し、[ メール生成](outbound-workflows.md#step-5-add-prospects-and-start-email-generation)などのために、後で利用できるようにします。
    * 手動でユーザーを追加するには、そのユーザーの詳細をフォームに入力します。
 
 1. 「**[!UICONTROL 保存]**」を選択します。
@@ -76,11 +87,11 @@ CRMから来ない見込み客を追加するには：
 * ソース
 * 最終更新日時
 
-また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
+また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング ](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 **[!UICONTROL マイ商談コンタクト]**&#x200B;では、ステージ、タイプ、クローズ日など、関連する商談のフィールドでコンタクトをフィルタリングすることもできます。 商談フィールドには、**[!UICONTROL ステージ（商談）]**&#x200B;などのラベルがあり、連絡先フィールドと区別されます。 管理者は、フィルターとして使用できる商談フィールドを制御します。
 
-業界、地域、アカウントタイプなど、関連するアカウントのフィールドを使用して連絡先をフィルタリングすることもできます。 管理者は、フィルター可能なアカウントフィールドを選択します。 アカウント、取引先責任者、商談のフィルターを組み合わせて、特定の業界のアカウントで特定の役割を担うコンタクトを見つけることができます。 アカウントフィールドフィルタリングは、SalesforceおよびMicrosoft Dynamics 365で使用でき、同じフィールドを[&#x200B; アウトバウンドワークフローターゲティング &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters)で使用できます。
+業界、地域、アカウントタイプなど、関連するアカウントのフィールドを使用して連絡先をフィルタリングすることもできます。 管理者は、フィルター可能なアカウントフィールドを選択します。 アカウント、取引先責任者、商談のフィルターを組み合わせて、特定の業界のアカウントで特定の役割を担うコンタクトを見つけることができます。 アカウントフィールドフィルタリングは、SalesforceおよびMicrosoft Dynamics 365で使用でき、同じフィールドを[ アウトバウンドワークフローターゲティング ](outbound-workflows.md#step-2-configure-targeting-filters)で使用できます。
 
 ### マーケティングのハイライトでフィルタリング
 
@@ -93,7 +104,7 @@ CRMから来ない見込み客を追加するには：
 
 各見込み客には、最新の[!DNL Marketo] アクティビティと最近の履歴が表示されます。
 
-マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [&#x200B; マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
+マーケティングハイライトは、すべての実稼動地域で使用できます。 管理者は、[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 [ マーケティングハイライトの設定](integrations.md#turn-on-marketo-engagement-filtering)を参照してください。
 
 ## 見込み客の詳細の確認
 
@@ -118,5 +129,5 @@ Meeting prepは、見込み客とその企業に関するweb調査と、販売�
 >[!MORELIKETHIS]
 >
 >* [アカウント](accounts.md)
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [AI チャット &#x200B;](ai-assistant.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [AI チャット ](ai-assistant.md)
