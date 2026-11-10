@@ -9,14 +9,14 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '768'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] リリースノート
 
-## 今後のリリース
+## 2026年11月リリース
 
 * 誰にリーチしたいのかを分かりやすい言葉で説明して、CRMのリードと取引先責任者のフィルターを作成し、あらゆるリードと取引先責任者のフィルターをアウトバウンドワークフローのターゲティングに使用し、一致する見込み客を保存する前にプレビューします。 [詳細情報](outbound-workflows.md#step-2-configure-targeting-filters)。
 * 役職や電子メールなどのテキストフィールドで、1つのフィルターにつき最大5つの値を使用して、見込み客を一度に複数の値でフィルタリングします。 [詳細情報](prospects.md#filter-and-find-prospects)。
