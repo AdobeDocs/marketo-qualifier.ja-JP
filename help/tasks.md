@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## エージェントの提案
 
-「**[!UICONTROL エージェントの提案]**」タブには、アウトバウンドワークフローのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+**[!UICONTROL エージェントの提案]** タブには、設定済みの[&#x200B; アウトバウンドワークフローのターゲティングフィルター](outbound-workflows.md#step-2-configure-targeting-filters)のフルセットを使用して、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 作業パネルで提案を確認するには、その提案を選択します。
 
@@ -139,6 +139,8 @@ ht-degree: 0%
 1. 返信の提案を開き、スレッド全体とドラフトされた応答を確認します。
 1. 別のドラフトを作成するには、応答を編集するか、**[!UICONTROL AIで生成]**&#x200B;を選択します。
 1. 応答を送信して見込み客のアウトバウンドワークフローを続行するには、**[!UICONTROL 承認して送信]**&#x200B;を選択します。
+
+また、アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューから[AI ドラフト返信](outbound-workflows.md#review-and-send-ai-draft-replies)をレビュー、編集、送信、却下することもできます。
 
 ## アウトバウンドワークフローからのタスクの完了
 

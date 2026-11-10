@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
     internal-label: Customer profiles
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '1033'
 ht-degree: 1%
 ---
 
@@ -86,6 +86,8 @@ CRMから来ない見込み客を追加するには：
 * アカウント
 * ソース
 * 最終更新日時
+
+**[!UICONTROL リード]**&#x200B;および&#x200B;**[!UICONTROL 連絡先]**&#x200B;のリストでは、**[!UICONTROL 役職]**&#x200B;および&#x200B;**[!UICONTROL 電子メール]**&#x200B;などのテキストフィルターは、次の値を含む演算子を使用して最大5つの値を受け入れます。 値を入力してEnter キーを押し、次の値を追加します。 この結果には、いずれかの値に一致する見込み客が含まれます。 例えば、`manager`と`director`を含む役職フィルターは、いずれかの単語を含む役職の見込客を返します。 このフィルタリングは、SalesforceおよびMicrosoft Dynamics 365で使用でき、同じフィルターを[&#x200B; アウトバウンドワークフローターゲティング &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters)で使用できます。
 
 また、管理者は、マッピングされたCRM フィールドをフィルターとして利用できるようにすることもできます。 **[!UICONTROL 管理者設定]**&#x200B;で、ユーザーが見込み客の検索に使用する各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。 [CRM フィールドのマッピング &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 

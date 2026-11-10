@@ -9,15 +9,20 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 11%
+source-wordcount: '767'
+ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] リリースノート
 
 ## 今後のリリース
 
+* 誰にリーチしたいのかを分かりやすい言葉で説明して、CRMのリードと取引先責任者のフィルターを作成し、あらゆるリードと取引先責任者のフィルターをアウトバウンドワークフローのターゲティングに使用し、一致する見込み客を保存する前にプレビューします。 [詳細情報](outbound-workflows.md#step-2-configure-targeting-filters)。
+* 役職や電子メールなどのテキストフィールドで、1つのフィルターにつき最大5つの値を使用して、見込み客を一度に複数の値でフィルタリングします。 [詳細情報](prospects.md#filter-and-find-prospects)。
+* AIによるドラフトの返信をレビュー、編集、送信して、アウトバウンドワークフローから見込み客の返信に直接送ったり、適合しないドラフトを却下したりできます。 [詳細情報](outbound-workflows.md#review-and-send-ai-draft-replies)。
+* SalesforceまたはMicrosoft Dynamics 365に[!DNL Adobe Marketo Qualifier]をインストールし、SalesforceのリストビューとレコードページからアウトバウンドワークフローまたはMarketo キャンペーンに見込み顧客を追加します。 [詳細情報](crm-plugin-setup.md)。
+* スマートオーディエンス（Beta）を活用してより迅速に始めましょう。ガイド付きのチュートリアル、オーディエンス作成時のクイックアドオン、記録数を含むより明確なリスト、表示されたままのアカウント列、色分けされたスコア。 [詳細情報](smart-audience.md)。
 * スマートオーディエンス（Beta）で適切なアカウントとリードを見つけ、優先順位を付けましょう。 必要なアカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、スコアリングリードを確認し、アウトバウンドワークフローに追加します。 [詳細情報](smart-audience.md)。
 * アカウントフィールドと連絡先フィールドおよび商談フィールドで連絡先をフィルタリングし、適切な連絡先を見つけ、アウトバウンドワークフローをより正確にターゲティングできます。 [詳細情報](prospects.md#filter-and-find-prospects)。
 * コンタクトには関連するアカウントとオーナーの名前が表示され、見込み客のページにはマーケティング活動の90日間が表示され、30日間から増加しました。 [詳細情報](prospects.md#review-prospect-details)。

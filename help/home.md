@@ -21,9 +21,9 @@ level_v2:
 topic_v2:
   - id: bbbea26f-9621-49eb-9ab8-e06fb3bbce8c
     internal-label: Artificial intelligence
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '554'
 ht-degree: 17%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 17%
 
 [!DNL Adobe Marketo Qualifier]は、ビジネス開発担当者（BDR）向けの見込み顧客の選定、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを自動化する、AIを活用したアプリです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
 
-このアプリは、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Marketo Measure]と共に[!DNL Marketo]製品ファミリーの一部です。 BDRは、ブラウザーとメールのプラグインを使用して、CRMやOutlook内で直接ビジネスインテリジェンスにアクセスできます。
+このアプリは、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Marketo Measure]と共に[!DNL Marketo]製品ファミリーの一部です。 BDRは、[CRM プラグイン &#x200B;](crm-plugin-setup.md)を使用して、SalesforceまたはMicrosoft Dynamics 365内で直接ビジネスインテリジェンスにアクセスできます。また、メールプラグインを使用して、Outlookでビジネスインテリジェンスにアクセスできます。
 
 ## [!DNL Marketo Qualifier]でできること
 
@@ -143,6 +143,16 @@ AIのアウトリーチとマテリアル内の支援を基盤とするプレイ
 SalesforceやMicrosoft Dynamics 365と接続してフィールドをマッピングできます。
 
 [統合](integrations.md)
+:::
+
+:::card
+![アイコン](https://cdn.experienceleague.adobe.com/icons/list-check.svg?lang=ja)
+
+CRM プラグインの設定
+
+CRM プラグインをインストールし、アウトバウンドワークフローとMarketo キャンペーンに対するSalesforce アクションを設定します。
+
+[CRMへのMarketo Qualifierの組み込み](crm-plugin-setup.md)
 :::
 
 :::card

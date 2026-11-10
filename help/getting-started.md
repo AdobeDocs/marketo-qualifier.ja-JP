@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1063'
 ht-degree: 0%
 ---
 
@@ -179,6 +179,8 @@ CRMを接続したら、インバウンドマッピングを設定して、Marke
 インポートしたフィールドをフィルターとして使用できるようにする方法など、完全な手順については、[CRM フィールドのマッピング（インバウンドマッピング） &#x200B;](integrations.md#map-crm-fields-inbound-mapping)を参照してください。
 
 ## 次の手順
+
+管理者はオプションで[CRM プラグインをインストールして](crm-plugin-setup.md)担当者がSalesforceまたはMicrosoft Dynamics 365内でMarketo Qualifier インサイトを使用できるようにすることができます。 Salesforceでは、管理者はアウトバウンドワークフローおよびMarketo キャンペーンのアクションを、リードおよび連絡先リストのビューとレコードページに追加することもできます。
 
 >[!MORELIKETHIS]
 >
