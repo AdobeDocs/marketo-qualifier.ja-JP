@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: ab54d20ccc80d88c3592d89c9f43feeb062ed82c
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1510'
+source-wordcount: '1531'
 ht-degree: 1%
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 1%
 Outlookを接続して、電子メールを送信したり、見込み客の返信を認識したり、ミーティングをスケジュールしたりできます。 リード、取引先責任者、アカウント、商談、アクティビティ、およびオーナーをAccount Qualification Agent（AQA）およびアウトバウンドワークフローで利用できるようにするには、Adobe Marketo QualifierをSalesforceまたはMicrosoft Dynamics 365に接続することもできます。 Marketo Qualifierは、CRM データを読み取り、アウトリーチアクティビティとオプトアウトステータスをCRMに書き込み、アウトリーチアクティビティをMarketoに同期できます。 CRM レコードは変更されません。
 
 この記事では、Outlookの接続、CRM接続の管理、フィールドのマッピング、アクティビティの同期、メール オプトアウトの設定方法について説明します。 CRMを初めて接続する場合は、[開始](getting-started.md#connect-your-crm)を参照してください。
+
+Marketo QualifierのインサイトとアクションをSalesforceまたはMicrosoft Dynamics 365内で利用できるようにするには、[CRMにMarketo Qualifierを埋め込む](crm-plugin-setup.md)を参照してください。
 
 >[!IMPORTANT]
 >
@@ -78,7 +80,7 @@ Marketo Qualifierは、送信した電子メールに対する返信のみを読
 | **[!UICONTROL 統合]** | **[!UICONTROL CRM接続]**、**[!UICONTROL ナレッジセンター]** |
 | **[!UICONTROL コンプライアンス]** | **[!UICONTROL メール設定]** |
 
-ナレッジセンターについては、[&#x200B; ナレッジセンタープレイブックの作成](admin-settings.md#knowledge-center)を参照してください。
+ナレッジセンターについては、[ ナレッジセンタープレイブックの作成](admin-settings.md#knowledge-center)を参照してください。
 
 ## CRM接続の管理
 
@@ -136,12 +138,12 @@ Marketo Qualifierが資格情報を拒否した場合は、無効または期限
 
 インバウンドマッピングでは、Marketo Qualifierが読み込むCRM フィールドと、それらのフィールドが表示される場所を制御します。 フィールドはセクションにグループ化され、各セクションはエンティティタイプに属します。
 
-![&#x200B; インバウンドマッピング &#x200B;](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
+![ インバウンドマッピング ](assets/crm-conn-salesforce.png){width="800" zoomable="yes"}
 
 1. 接続されたCRM カードで、**[!UICONTROL 管理]**&#x200B;を選択します。
 1. 「**[!UICONTROL インバウンドマッピング]**」タブで、「**[!UICONTROL セクションを追加]**」を選択します。
 
-   ![&#x200B; セクションを追加](assets/crm-add-section.png){width="800" zoomable="yes"}
+   ![ セクションを追加](assets/crm-add-section.png){width="800" zoomable="yes"}
 
 1. **セクションを選択** ステップで、エンティティタイプを選択し、**[!UICONTROL 次]**&#x200B;を選択します。
 
@@ -149,12 +151,12 @@ Marketo Qualifierが資格情報を拒否した場合は、無効または期限
    | --- | --- |
    | **[!UICONTROL 見込み客]** | 見込み客の&#x200B;**[!UICONTROL 人物]** タブ。 |
    | **[!UICONTROL 取引先責任者]** | 連絡先レコードです。 |
-   | **[!UICONTROL アカウント]** | 「**[!UICONTROL アカウント]**」タブ。 [&#x200B; アカウント &#x200B;](accounts.md)を参照してください。 |
+   | **[!UICONTROL アカウント]** | 「**[!UICONTROL アカウント]**」タブ。 [ アカウント ](accounts.md)を参照してください。 |
    | **[!UICONTROL 商談]** | アカウントの商談の詳細。 |
 
 1. **[!UICONTROL セクション名]**&#x200B;と、オプションの&#x200B;**[!UICONTROL 説明]**&#x200B;を入力します。 次に、**[!UICONTROL 次へ]**&#x200B;を選択します。
 1. **[!UICONTROL フィールドを追加]** ステップで、CRM フィールドを読み込むには、それらを検索して選択します。 次に、続行するには、**[!UICONTROL 次へ]**&#x200B;を選択します。 各フィールドには、**[!UICONTROL 表示名]**、**[!UICONTROL フィールド名]**、**[!UICONTROL データタイプ]**&#x200B;が表示されます。
-1. **[!UICONTROL 見込み客]**、**[!UICONTROL 連絡先]**、**[!UICONTROL アカウント]**、および&#x200B;**[!UICONTROL 商談]**&#x200B;のセクションで、担当者が[見込み客](prospects.md#filter-and-find-prospects) リストまたは[&#x200B; アウトバウンドワークフローのターゲット &#x200B;](outbound-workflows.md#step-2-configure-targeting-filters)で必要とする各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。
+1. **[!UICONTROL 見込み客]**、**[!UICONTROL 連絡先]**、**[!UICONTROL アカウント]**、および&#x200B;**[!UICONTROL 商談]**&#x200B;のセクションで、担当者が[見込み客](prospects.md#filter-and-find-prospects) リストまたは[ アウトバウンドワークフローのターゲット ](outbound-workflows.md#step-2-configure-targeting-filters)で必要とする各フィールドの&#x200B;**[!UICONTROL フィルター可能]**&#x200B;をオンにします。
 
    フィールドのデータタイプがフィルタリングをサポートしていない場合、または別のセクションで既に使用されている場合、フィールドをフィルタリングすることはできません。
 
@@ -182,9 +184,9 @@ Activity syncは、CRMとMarketoにMarketo Qualifier アウトリーチアクテ
 
 ## マーケティングハイライトの設定 {#turn-on-marketo-engagement-filtering}
 
-マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [&#x200B; マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
+マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [ マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
 
-管理者は、関連する組織とサンドボックスの[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
+管理者は、関連する組織とサンドボックスの[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[ マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
 マーケティングハイライトは、北米、EMEA、オーストラリアのすべての生産地域で利用できます。
 
@@ -201,14 +203,14 @@ Activity syncは、CRMとMarketoにMarketo Qualifier アウトリーチアクテ
 
 設定とテンプレートは自動的に保存されます。
 
-見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期します。 また、Marketo Qualifierは、「メール配信を停止する」、「購読を解除する」など、見込み客のメール返信における明確なオプトアウトリクエストを認識し、見込み客を自動的にオプトアウトとしてマークします。 同じ&#x200B;**[!UICONTROL オプトアウト]**&#x200B;のステータスとバッジが適用され、それ以上のタッチポイントは送信されません。 追加の設定は必要ありません。 「今すぐではない」など、明確に停止を求めない回答はオプトアウトとして扱われません。 返信[&#128279;](outbound-workflows.md#opt-out-requests-in-replies)の オプトアウト要求を参照してください。
+見込客がリンクを選択すると、Marketo Qualifierはその見込客への電子メールの送信を停止し、オプトアウトステータスを接続されたCRMに同期します。 また、Marketo Qualifierは、「メール配信を停止する」、「購読を解除する」など、見込み客のメール返信における明確なオプトアウトリクエストを認識し、見込み客を自動的にオプトアウトとしてマークします。 同じ&#x200B;**[!UICONTROL オプトアウト]**&#x200B;のステータスとバッジが適用され、それ以上のタッチポイントは送信されません。 追加の設定は必要ありません。 「今すぐではない」など、明確に停止を求めない回答はオプトアウトとして扱われません。 返信](outbound-workflows.md#opt-out-requests-in-replies)の[ オプトアウト要求を参照してください。
 
 ## CRM アクセス範囲
 
 Marketo Qualifierは、必要なCRM エンティティを読み取り、定義されたデータセットのみを書き戻します。
 
 * **読み取り** - ユーザー、取引先責任者、所有者のマッピング、リード、アカウント、商談、およびアクティビティ。
-* **書き込み** - アウトリーチアクティビティのログ記録（[&#x200B; アクティビティ同期](#configure-activity-sync-outbound-mapping)がオンの場合）とオプトアウト状態。
+* **書き込み** - アウトリーチアクティビティのログ記録（[ アクティビティ同期](#configure-activity-sync-outbound-mapping)がオンの場合）とオプトアウト状態。
 
 CRM管理者は、SalesforceまたはDynamicsでAPI アクセスを準備します。 次に、Marketo Qualifierの管理者が、CRMを接続し、インバウンドフィールドをマッピングして、アクティビティを同期するかどうかを選択します。 初期接続には読み取り専用アクセスが必要です。 アクティビティの同期とオプトアウトの書き戻しには、対応する書き込みアクセスが必要です。
 

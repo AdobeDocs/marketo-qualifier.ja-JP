@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: fcdc5d36cbb1500cf984e1439291aa8dbf17b72b
+source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1105'
 ht-degree: 0%
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
 左側のナビゲーションで、**[!UICONTROL アクティビティ]** > **[!UICONTROL タスク]**&#x200B;に移動します。
 
-![&#x200B; タスクパネル &#x200B;](assets/tasks.png)
+![ タスクパネル ](assets/tasks.png)
 
 ## タスクビュー
 
@@ -54,7 +54,7 @@ ht-degree: 0%
 
 * **[!UICONTROL メールレビュー]** - [!DNL Adobe Marketo Qualifier]が見込み客のパーソナライズされたメールを生成した後に作成されます。 アウトリーチが始まる前にドラフトを確認して承認するには、**[!UICONTROL メールを確認]**&#x200B;を選択します。 [生成された電子メールの確認と調整](outbound-workflows.md#review-and-refine-generated-emails)を参照してください。
 
-![&#x200B; メールレビュー](assets/tasks-review.png)
+![ メールレビュー](assets/tasks-review.png)
 
 ### 作業パネル
 
@@ -109,7 +109,7 @@ ht-degree: 0%
 
 ## エージェントの提案
 
-「**[!UICONTROL エージェントの提案]**」タブには、アウトバウンドワークフローのターゲティング条件に一致し、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+**[!UICONTROL エージェントの提案]** タブには、設定済みの[ アウトバウンドワークフローのターゲティングフィルター](outbound-workflows.md#step-2-configure-targeting-filters)のフルセットを使用して、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 作業パネルで提案を確認するには、その提案を選択します。
 
@@ -130,7 +130,7 @@ ht-degree: 0%
 * 最新のメッセージだけでなく、メール全体のスレッド。
 * ナレッジセンターの資料と製品調査。
 * アカウントシグナル：最近のニュース、マーケティングエンゲージメント、CRM アクティビティなど
-* 保存した[&#x200B; メール作成コンテキスト &#x200B;](profile-settings.md#email-drafting-context)。
+* 保存した[ メール作成コンテキスト ](profile-settings.md#email-drafting-context)。
 
 アシスタントは、見込み客の意図に合わせて応答を適応させます。 たとえば、ミーティングのリクエストに対して予約リンクを通じて時間を提供したり、見込み客が興味を持ったときに価値を強化したり、資料からの商品に関する質問に答えたり、関連するアセットを共有したり、差別化担当者と異議を申し立てたり、見込み客が延期を望んでいる場合に低圧力で対応したりすることができます。
 
@@ -140,9 +140,11 @@ ht-degree: 0%
 1. 別のドラフトを作成するには、応答を編集するか、**[!UICONTROL AIで生成]**&#x200B;を選択します。
 1. 応答を送信して見込み客のアウトバウンドワークフローを続行するには、**[!UICONTROL 承認して送信]**&#x200B;を選択します。
 
+また、アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューから[AI ドラフト返信](outbound-workflows.md#review-and-send-ai-draft-replies)をレビュー、編集、送信、却下することもできます。
+
 ## アウトバウンドワークフローからのタスクの完了
 
-アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが、完了と同じ&#x200B;**[!UICONTROL マーク]**、**[!UICONTROL スキップ]**、およびメモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+アウトバウンドワークフローの&#x200B;**[!UICONTROL エンゲージメント済み見込み顧客]** ビューでは、手動タッチポイントが、完了と同じ&#x200B;**[!UICONTROL マーク]**、**[!UICONTROL スキップ]**、およびメモのオプションを提供します。 タスクを完了すると、**[!UICONTROL タスク]** ページのステータスも更新されます。 [ アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
 
 ## 空の状態
 
@@ -152,6 +154,6 @@ ht-degree: 0%
 
 >[!MORELIKETHIS]
 >
->* [&#x200B; アウトバウンドワークフロー](outbound-workflows.md)
->* [&#x200B; アウトバウンドパフォーマンス &#x200B;](performance.md)
+>* [ アウトバウンドワークフロー](outbound-workflows.md)
+>* [ アウトバウンドパフォーマンス ](performance.md)
 >* [見込み客](prospects.md)
