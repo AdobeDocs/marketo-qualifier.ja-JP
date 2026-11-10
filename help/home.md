@@ -31,12 +31,12 @@ ht-degree: 17%
 
 [!DNL Adobe Marketo Qualifier]は、ビジネス開発担当者（BDR）向けの見込み顧客の選定、アウトリーチ、クロスチャネルのバイヤーエンゲージメントを自動化する、AIを活用したアプリです。 Account Qualification Agentは、アカウントと見込み顧客を分析し、次のステップに進むための準備ができているアカウントに優先順位を付け、CRM データにもとづいてパーソナライズされたアウトリーチを作成します。
 
-このアプリは、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Marketo Measure]と共に[!DNL Marketo]製品ファミリーの一部です。 BDRは、[CRM プラグイン ](crm-plugin-setup.md)を使用して、SalesforceまたはMicrosoft Dynamics 365内で直接ビジネスインテリジェンスにアクセスできます。また、メールプラグインを使用して、Outlookでビジネスインテリジェンスにアクセスできます。
+このアプリは、[!DNL Marketo Engage]、[!DNL Marketo Optimizer]、[!DNL Marketo Measure]と共に[!DNL Marketo]製品ファミリーの一部です。 BDRは、[CRM プラグイン &#x200B;](crm-plugin-setup.md)を使用して、SalesforceまたはMicrosoft Dynamics 365内で直接ビジネスインテリジェンスにアクセスできます。また、メールプラグインを使用して、Outlookでビジネスインテリジェンスにアクセスできます。
 
 ## [!DNL Marketo Qualifier]でできること
 
 * AIが生成したアクティビティの概要とシグナルベースの優先順位付けにより、**見込み顧客とアカウントの優先順位付け**。
-* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[ スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
+* **アカウントを平易な言葉で説明し、CRM データと成長シグナルを追加し、アウトバウンドワークフローのスコアリングリードを確認することで、[&#x200B; スマートオーディエンス（Beta）](smart-audience.md)**&#x200B;でターゲットリストを構築します。
 * **AIがケイデンスを提案し、各見込客にパーソナライズされたメールを作成する、目標主導型のアウトバウンドワークフロー**&#x200B;を構築します。
 * **電話、LinkedIn InMails、メールレビュー用の1つのキュー**&#x200B;でアウトリーチを処理します。
 * カレンダーを接続し、個人予約リンクをケイデンスに挿入することで、**ミーティングを自動的に予約する**。
