@@ -43,7 +43,7 @@ Salesforceでは、リードや連絡先のリストビューや個々のレコ�
 
 パッケージをインストールしてから、担当者が使用するレコードページにそのコンポーネントを追加します。
 
-1. [Salesforce インストールページ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)を開き、Salesforceに管理者としてログインします。
+1. [Salesforce インストールページ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)を開き、Salesforceに管理者としてログインします。
 1. パッケージのインストールページで、「**[!UICONTROL すべてのユーザーにインストール]**」を選択し、「**[!UICONTROL インストール]**」を選択します。
 
    Salesforce権限を使用して、個々のユーザーのアクセスを引き続き制御できます。
@@ -117,7 +117,7 @@ Salesforceでは、リードや連絡先のリストビューや個々のレコ�
 
 プラグインパッケージを、担当者が作業する環境に読み込みます。
 
-1. [Microsoft Dynamics 365 インストールページ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)を開き、パッケージ ZIP ファイルをダウンロードします。
+1. [Microsoft Dynamics 365 インストールページ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)を開き、パッケージ ZIP ファイルをダウンロードします。
 1. 管理者として[Power Apps](https://make.powerapps.com/)にログインし、ターゲット環境を選択します。
 1. **[!UICONTROL ソリューション]**&#x200B;を開き、**[!UICONTROL ソリューションの読み込み]**&#x200B;を選択します。
 1. **[!UICONTROL 参照]**&#x200B;を選択し、ダウンロードしたZIP ファイルを選択して、**[!UICONTROL 次へ]**&#x200B;を選択します。
