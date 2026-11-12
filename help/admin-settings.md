@@ -26,9 +26,9 @@ level_v2:
 topic_v2:
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
     internal-label: Administration
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1368'
 ht-degree: 0%
 ---
 
@@ -49,7 +49,7 @@ CRM接続、フィールドマッピング、およびアクティビティの�
 Marketo QualifierとCRMの連携には、次のような利点があります。
 
 * **CRM MCP クエリ** - Account Qualification Agentはライブ CRM データをクエリし、回答とインサイトがレコードの現在の状態を反映するようにします。
-* **埋め込みプラグイン** - CRM プラグインは、CRM内の[!DNL Marketo Sales Insights] （MSI）インサイトとエージェント型データを表示します。 プラグインを使用して、見込み客を[!DNL Marketo Qualifier]に追加します。 インストールとSalesforce アクションの設定については、[CRMへのMarketo Qualifierの埋め込み](crm-plugin-setup.md)を参照してください。
+* **埋め込みプラグイン** - CRM プラグインは、CRM内の[!DNL Marketo Sales Insights] （MSI）インサイトとエージェント型データを表示します。 プラグインを使用して、見込み客を[!DNL Marketo Qualifier]に追加します。 インストールとSalesforce アクションの設定については、[CRM プラグインの設定](crm-plugin-setup.md)を参照してください。
 * **アクティビティの同期** – 管理者が&#x200B;**[!UICONTROL アクティビティの同期]**&#x200B;を有効にすると、アウトリーチアクティビティがCRMとMarketoに同期されます。
 
 ### CRM プラグインでリードに優先順位をつけます

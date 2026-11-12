@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1530'
 ht-degree: 1%
 ---
 
@@ -37,7 +37,7 @@ Outlookを接続して、電子メールを送信したり、見込み客の返�
 
 この記事では、Outlookの接続、CRM接続の管理、フィールドのマッピング、アクティビティの同期、メール オプトアウトの設定方法について説明します。 CRMを初めて接続する場合は、[開始](getting-started.md#connect-your-crm)を参照してください。
 
-Marketo QualifierのインサイトとアクションをSalesforceまたはMicrosoft Dynamics 365内で利用できるようにするには、[CRMにMarketo Qualifierを埋め込む](crm-plugin-setup.md)を参照してください。
+Marketo QualifierのインサイトとアクションをSalesforceまたはMicrosoft Dynamics 365内で利用できるようにするには、[CRM プラグインの設定](crm-plugin-setup.md)を参照してください。
 
 >[!IMPORTANT]
 >

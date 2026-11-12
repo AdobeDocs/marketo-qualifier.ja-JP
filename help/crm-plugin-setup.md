@@ -1,6 +1,6 @@
 ---
-title: CRMとの接続
-description: SalesforceまたはMicrosoft Dynamics 365にMarketo Qualifierをインストールし、アウトバウンドワークフローとMarketo キャンペーンにSalesforce アクションを設定する方法について説明します。
+title: CRM プラグインの設定
+description: SalesforceまたはMicrosoft Dynamics 365にMarketo Qualifier CRM プラグインをインストールする方法について説明します。 ワークフローとMarketo キャンペーンに対するSalesforce アクションを設定します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRMとの接続
+# CRM プラグインの設定
 
 [!DNL Adobe Marketo Qualifier] CRM プラグインをインストールして、担当者が[!DNL Marketo Sales Insights]とAIによって生成されたインサイトをSalesforceやMicrosoft Dynamics 365から離れることなく、リード、取引先責任者、アカウントのレコードページで使用できるようにします。 このプラグインは、CRMでリードを[優先順位付けするためのホームビューも提供します](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
 
