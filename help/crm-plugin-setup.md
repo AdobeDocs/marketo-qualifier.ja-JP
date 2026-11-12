@@ -1,6 +1,6 @@
 ---
-title: CRMとの接続
-description: SalesforceまたはMicrosoft Dynamics 365にMarketo Qualifierをインストールし、アウトバウンドワークフローとMarketo キャンペーンにSalesforce アクションを設定する方法について説明します。
+title: CRM プラグインの設定
+description: SalesforceまたはMicrosoft Dynamics 365にMarketo Qualifier CRM プラグインをインストールする方法について説明します。 ワークフローとMarketo キャンペーンに対するSalesforce アクションを設定します。
 feature: Agentic AI, Sales Insights, Account Journeys
 role: Admin
 product_v2:
@@ -17,13 +17,13 @@ subfeature_v2:
 role_v2:
   - id: c66ffd68-0f65-42bb-aa23-b4020f12e0bd
     internal-label: Admin
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '953'
 ht-degree: 0%
 ---
 
-# CRMとの接続
+# CRM プラグインの設定
 
 [!DNL Adobe Marketo Qualifier] CRM プラグインをインストールして、担当者が[!DNL Marketo Sales Insights]とAIによって生成されたインサイトをSalesforceやMicrosoft Dynamics 365から離れることなく、リード、取引先責任者、アカウントのレコードページで使用できるようにします。 このプラグインは、CRMでリードを[優先順位付けするためのホームビューも提供します](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
 
@@ -43,7 +43,7 @@ Salesforceでは、リードや連絡先のリストビューや個々のレコ�
 
 パッケージをインストールしてから、担当者が使用するレコードページにそのコンポーネントを追加します。
 
-1. [Salesforce インストールページ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)を開き、Salesforceに管理者としてログインします。
+1. [Salesforce インストールページ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=salesforce)を開き、Salesforceに管理者としてログインします。
 1. パッケージのインストールページで、「**[!UICONTROL すべてのユーザーにインストール]**」を選択し、「**[!UICONTROL インストール]**」を選択します。
 
    Salesforce権限を使用して、個々のユーザーのアクセスを引き続き制御できます。
@@ -117,7 +117,7 @@ Salesforceでは、リードや連絡先のリストビューや個々のレコ�
 
 プラグインパッケージを、担当者が作業する環境に読み込みます。
 
-1. [Microsoft Dynamics 365 インストールページ &#x200B;](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)を開き、パッケージ ZIP ファイルをダウンロードします。
+1. [Microsoft Dynamics 365 インストールページ ](https://experience.adobe.com/solutions/OneAdobe-sales-workflow-optimizer-sales-insight-ui/install/sales-insight?crm=dynamics)を開き、パッケージ ZIP ファイルをダウンロードします。
 1. 管理者として[Power Apps](https://make.powerapps.com/)にログインし、ターゲット環境を選択します。
 1. **[!UICONTROL ソリューション]**&#x200B;を開き、**[!UICONTROL ソリューションの読み込み]**&#x200B;を選択します。
 1. **[!UICONTROL 参照]**&#x200B;を選択し、ダウンロードしたZIP ファイルを選択して、**[!UICONTROL 次へ]**&#x200B;を選択します。
