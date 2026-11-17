@@ -21,9 +21,9 @@ topic_v2:
     internal-label: Artificial intelligence
   - id: beb7a3c1-66ab-4786-b879-7621375b3c40
     internal-label: Email marketing
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '3086'
+source-wordcount: '3140'
 ht-degree: 0%
 ---
 
@@ -98,16 +98,19 @@ AIは、生成されたタッチポイント内の目標の要件を正確に保
 
 ターゲティングフィルターはすべてワークフローと共に保存され、見込み客を追加すると自動的に適用されます。 [&#x200B; エージェントの提案](tasks.md#agent-suggestions)では、同じフルセットのフィルターを使用するので、推奨される見込み客はターゲティング条件に一致します。
 
-### マーケティングハイライトから見込み客を自動登録
+### マーケティングハイライトからレコメンデーションを取得 {#automatically-enroll-prospects-from-marketing-highlights}
 
-アウトバウンドワークフローでは、ライブマーケティングハイライトのアクティビティをターゲティング基準に照らして評価できます。 アクティビティが一致すると、[!DNL Marketo Qualifier]は見込み客のCRM オーナーを電子メールで解決し、その担当者に属する適格なワークフローにのみ見込み客を登録します。
+アウトバウンドワークフローでは、マーケティングハイライトのリードとアクティビティを、そのターゲティング基準に照らして評価できます。 [!DNL Marketo Engage]の&#x200B;**[!UICONTROL Marketo Qualifierに送信]** フローステップを使用して、トリガーまたはバッチ Smart Campaignからリードを送信します。 [&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
-自動登録は、次の順序で行われます。
+条件が一致すると、[!DNL Marketo Qualifier]はSalesforceまたはMicrosoft Dynamics 365からリードのオーナーを解決し、その代表者にのみリードを推薦します。 リードは自動的に登録されません。
+
+推奨事項は、次の順序で示されます。
 
 1. 担当者は、ワークフローのターゲティング基準を定義します。
-1. ライブ [!DNL Marketo] アクティビティが見込み客に対して届きます。
-1. [!DNL Marketo Qualifier]は、SalesforceまたはMicrosoft Dynamicsから見込み客のオーナーを解決し、オーナーの資格のあるワークフローに対してアクティビティを評価します。
-1. 条件が一致すると、見込み客が登録され、アウトリーチが開始されます。
+1. Marketo Engage Smart CampaignからMarketing Highlightsにリードが到達しました。
+1. Marketo Qualifierは、リードをCRM オーナーと照合し、リードとアクティビティをオーナーの適格性ワークフローと比較して評価します。
+1. 条件が一致すると、所有者は&#x200B;**[!UICONTROL タスク]**/**[!UICONTROL エージェントの提案]**&#x200B;でレコメンデーションを受け取ります。
+1. 所有者は、推奨される見込み客を確認して電子メールを生成し、アウトリーチが始まる前に[が見込み客](#approve-and-enroll-prospects)を承認して登録します。
 
 別の担当者が既に見込み客に連絡している場合、重複した連絡が開始される前に[!DNL Marketo Qualifier]は警告を表示します。
 

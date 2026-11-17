@@ -19,9 +19,9 @@ level_v2:
 topic_v2:
   - id: b5520579-b31f-4df7-9281-f0d9f91e2edc
     internal-label: Customer engagement
-source-git-commit: 633ca975d4fe58bdcc84caf633049ae1190b0f56
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1105'
+source-wordcount: '1172'
 ht-degree: 0%
 ---
 
@@ -110,6 +110,8 @@ ht-degree: 0%
 ## エージェントの提案
 
 **[!UICONTROL エージェントの提案]** タブには、設定済みの[&#x200B; アウトバウンドワークフローのターゲティングフィルター](outbound-workflows.md#step-2-configure-targeting-filters)のフルセットを使用して、登録に推奨される見込み顧客が一覧表示されます。 レコメンデーションを有効にするには、[&#x200B; アウトバウンドワークフロー](outbound-workflows.md)を参照してください。
+
+[!DNL Marketo Engage]から&#x200B;**[!UICONTROL Marketo Qualifierに送信]** フローステップで送信されたリードは、アウトバウンドワークフローのターゲティング条件に一致する場合も、ここに表示されます。 各リードは、コネクテッドSalesforceまたはMicrosoft Dynamics 365 CRMのオーナーにのみ推奨されます。 マーケターは、登録前に見込み客のレビューと承認をおこないます。Adobe Marketo Engageからリードを送信しても、自動的に登録されるわけではありません。 [&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
 作業パネルで提案を確認するには、その提案を選択します。
 

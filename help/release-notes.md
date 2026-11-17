@@ -9,15 +9,16 @@ product_v2:
 role_v2:
   - id: b69b2659-1057-424e-8fc5-ed9e016dc554
     internal-label: User
-source-git-commit: f7b2d254601b6dd9a00513dae850ae22a5480b87
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '768'
+source-wordcount: '821'
 ht-degree: 10%
 ---
 # [!DNL Adobe Marketo Qualifier] リリースノート
 
 ## 2026年11月リリース
 
+* WebhookまたはAPI資格情報を設定せずに、任意のトリガーまたはバッチ Smart Campaignに&#x200B;**[!UICONTROL Send to Marketo Qualifier]** フローステップを追加して、[!DNL Marketo Engage]から[!DNL Marketo Qualifier]にリードを送信します。 アウトバウンドワークフローに一致するリードは、レビューのためにオーナーに推奨されます。 [詳細情報](marketing-highlights-setup.md)。
 * 誰にリーチしたいのかを分かりやすい言葉で説明して、CRMのリードと取引先責任者のフィルターを作成し、あらゆるリードと取引先責任者のフィルターをアウトバウンドワークフローのターゲティングに使用し、一致する見込み客を保存する前にプレビューします。 [詳細情報](outbound-workflows.md#step-2-configure-targeting-filters)。
 * 役職や電子メールなどのテキストフィールドで、1つのフィルターにつき最大5つの値を使用して、見込み客を一度に複数の値でフィルタリングします。 [詳細情報](prospects.md#filter-and-find-prospects)。
 * AIによるドラフトの返信をレビュー、編集、送信して、アウトバウンドワークフローから見込み客の返信に直接送ったり、適合しないドラフトを却下したりできます。 [詳細情報](outbound-workflows.md#review-and-send-ai-draft-replies)。
@@ -43,7 +44,7 @@ ht-degree: 10%
 
 * 組み込みのCRM プラグインで[!DNL Marketo Sales Insights]とエージェント型データを表示し、見込み客を[!DNL Marketo Qualifier]に追加します。 [詳細情報](admin-settings.md#crm-mcp-and-the-embedded-plugin)。
 * ベストベット、マイウォッチリスト、web アクティビティ、メールエンゲージメント、ウェビナーアクティビティにより、CRM リードに優先順位を付けることができます。 [詳細情報](admin-settings.md#prioritize-leads-in-the-crm-plugin)。
-* ライブ [!DNL Marketo]のアクティビティがワークフロー条件に一致すると、見込み顧客がアウトバウンドワークフローに自動的に登録されます。 [詳細情報](home.md#automatically-enroll-prospects-from-marketing-highlights)。
+* [!DNL Marketo] アクティビティがアウトバウンドワークフローのターゲティング条件に一致する見込み顧客に対するレコメンデーションを取得します。 オーナーは、登録とアウトリーチの前に見込み客をレビューし、承認します。 [詳細情報](outbound-workflows.md#automatically-enroll-prospects-from-marketing-highlights)。
 * 見込み客のコンテキストを確認し、見込み客リストを書き出して、[!DNL Marketo Optimizer]件のPrimeおよびUltimate インスタンスでAI担当者の概要を表示します。 [詳細情報](prospects.md#review-prospect-context-and-export-the-list)。
 * 生成された見込み客のメールをタスクキューから確認して承認し、アウトバウンドワークフロー中にエージェントの提案を返します。 [詳細情報](tasks.md)。
 

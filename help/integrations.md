@@ -25,9 +25,9 @@ level_v2:
 topic_v2:
   - id: df401a2a-327d-468c-a5e4-b7b7ccd071a0
     internal-label: Data integration
-source-git-commit: df256cf271296b82fab2ed10725a0d6bd165e05b
+source-git-commit: adcfe279f38ca319589612820351c48af750bad9
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1517'
 ht-degree: 1%
 ---
 
@@ -186,7 +186,7 @@ Activity syncは、CRMとMarketoにMarketo Qualifier アウトリーチアクテ
 
 マーケティングハイライトでは、担当者が電子メールの開封数やクリック数など、[!DNL Marketo]のライブのエンゲージメントによって見込み客を見つけ、優先順位を付けることができます。 [&#x200B; マーケティングハイライトによるフィルター](prospects.md#filter-by-marketing-highlights)を参照してください。
 
-管理者は、関連する組織とサンドボックスの[!DNL Marketo]をMarketo Qualifierに接続する1回限りの設定を完了します。 この設定では、Adobe Developer ConsoleでAPI資格情報を作成し、[!DNL Marketo]でWebhookを設定し、そのWebhookをトリガーのスマートキャンペーンに追加します。 詳細な手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
+**[!UICONTROL Marketo Qualifierに送信]** フローステップを[!DNL Marketo Engage]のトリガーまたはバッチ Smart Campaignに追加して、条件を満たすリードを送信します。設定するWebhookまたはAPI資格情報はありません。 前提条件と手順については、[&#x200B; マーケティングハイライトの設定](marketing-highlights-setup.md)を参照してください。
 
 マーケティングハイライトは、北米、EMEA、オーストラリアのすべての生産地域で利用できます。
 
